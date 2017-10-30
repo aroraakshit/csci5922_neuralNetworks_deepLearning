@@ -1,7 +1,7 @@
 # CSCI 5922 - Neural Networks and Deep Learning (Fall 2017)
 
-<h2>Course Webpage: [CSCI 5922](https://www.cs.colorado.edu/~mozer/Teaching/syllabi/DeepLearningFall2017/)</h2>
-<h2>Course Instructor: [Prof. Michael C Mozer](https://www.cs.colorado.edu/~mozer/index.php)</h2>
+### Course Webpage: [CSCI 5922](https://www.cs.colorado.edu/~mozer/Teaching/syllabi/DeepLearningFall2017/)
+### Course Instructor: [Prof. Michael C Mozer](https://www.cs.colorado.edu/~mozer/index.php)
 
 This repository contains my solutions to assignments given in this course. Here is a brief summary of assignments with their respective links:
 + [Assignment 1](https://www.cs.colorado.edu/~mozer/Teaching/syllabi/DeepLearningFall2017/assignments/assignment2.html): To implement linear regression and linear-threshold classification using scikit-learn. Dataset used: [-random data-](https://www.cs.colorado.edu/~mozer/Teaching/syllabi/DeepLearningFall2017/assignments/assign1_data.txt)
