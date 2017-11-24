@@ -1,0 +1,2061 @@
+discarding /curc/sw/python/3.5.1/bin from PATH
+prepending /projects/akar9135/sample/bin to PATH
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcublas.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcudnn.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcufft.so locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:128] successfully opened CUDA library libcurand.so locally
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:04:00.0
+Total memory: 11.92GiB
+Free memory: 11.86GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:590] creating context when one is currently active; existing: 0x38c5b20
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 1 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:05:00.0
+Total memory: 11.92GiB
+Free memory: 11.86GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:590] creating context when one is currently active; existing: 0x38c94a0
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 2 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:84:00.0
+Total memory: 11.92GiB
+Free memory: 11.86GiB
+W tensorflow/stream_executor/cuda/cuda_driver.cc:590] creating context when one is currently active; existing: 0x38cd1c0
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 3 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:85:00.0
+Total memory: 11.92GiB
+Free memory: 11.85GiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 0 and 2
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 0 and 3
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 1 and 2
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 1 and 3
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 2 and 0
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 2 and 1
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 3 and 0
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:777] Peer access not supported between device ordinals 3 and 1
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] DMA: 0 1 2 3 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 0:   Y Y N N 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 1:   Y Y N N 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 2:   N N Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 3:   N N Y Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 1976044 get requests, put_count=1975970 evicted_count=1000 eviction_rate=0.000506081 and unsatisfied allocation rate=0.000594116
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 6120433 get requests, put_count=6120443 evicted_count=1000 eviction_rate=0.000163387 and unsatisfied allocation rate=0.000164531
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 8895441 get requests, put_count=8895204 evicted_count=11000 eviction_rate=0.00123662 and unsatisfied allocation rate=0.00126514
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 5884 get requests, put_count=5961 evicted_count=1000 eviction_rate=0.167757 and unsatisfied allocation rate=0.160775
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 256 to 281
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 21810159 get requests, put_count=21809961 evicted_count=4000 eviction_rate=0.000183402 and unsatisfied allocation rate=0.000194497
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 21871392 get requests, put_count=21871254 evicted_count=14000 eviction_rate=0.00064011 and unsatisfied allocation rate=0.000648427
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 21932628 get requests, put_count=21932549 evicted_count=24000 eviction_rate=0.00109426 and unsatisfied allocation rate=0.00109987
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 21993864 get requests, put_count=21993845 evicted_count=34000 eviction_rate=0.00154589 and unsatisfied allocation rate=0.00154875
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 22055417 get requests, put_count=22055401 evicted_count=44000 eviction_rate=0.00199498 and unsatisfied allocation rate=0.0019977
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:04:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:05:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla K80, pci bus id: 0000:84:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla K80, pci bus id: 0000:85:00.0)
+/curc/sw/python/3.5.1/lib/python3.5/site-packages/tensorflow/python/ops/gradients_impl.py:91: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+0.12.1
+
+Model: 0 : seq len = 2, num_hidden = 5, replication: 0
+
+Step 1, Minibatch Loss= 0.691981, Training Accuracy= 0.57812
+Step 100, Minibatch Loss= 0.000175, Training Accuracy= 1.00000
+Step 200, Minibatch Loss= 0.000081, Training Accuracy= 1.00000
+Step 300, Minibatch Loss= 0.000059, Training Accuracy= 1.00000
+Step 400, Minibatch Loss= 0.000059, Training Accuracy= 1.00000
+Step 500, Minibatch Loss= 0.000044, Training Accuracy= 1.00000
+Step 600, Minibatch Loss= 0.000043, Training Accuracy= 1.00000
+Step 700, Minibatch Loss= 0.000039, Training Accuracy= 1.00000
+Step 800, Minibatch Loss= 0.000036, Training Accuracy= 1.00000
+Step 900, Minibatch Loss= 0.000034, Training Accuracy= 1.00000
+Step 1000, Minibatch Loss= 0.000030, Training Accuracy= 1.00000
+Step 1100, Minibatch Loss= 0.000029, Training Accuracy= 1.00000
+Step 1200, Minibatch Loss= 0.000028, Training Accuracy= 1.00000
+Step 1300, Minibatch Loss= 0.000026, Training Accuracy= 1.00000
+Step 1400, Minibatch Loss= 0.000026, Training Accuracy= 1.00000
+Step 1500, Minibatch Loss= 0.000024, Training Accuracy= 1.00000
+Optimization Finished!
+Testing Accuracy: 1.0
+
+Model: 0 : seq len = 2, num_hidden = 5, replication: 1
+
+Step 1, Minibatch Loss= 0.684500, Training Accuracy= 0.60938
+Step 100, Minibatch Loss= 0.000419, Training Accuracy= 1.00000
+Step 200, Minibatch Loss= 0.000263, Training Accuracy= 1.00000
+Step 300, Minibatch Loss= 0.000172, Training Accuracy= 1.00000
+Step 400, Minibatch Loss= 0.000137, Training Accuracy= 1.00000
+Step 500, Minibatch Loss= 0.000112, Training Accuracy= 1.00000
+Step 600, Minibatch Loss= 0.000094, Training Accuracy= 1.00000
+Step 700, Minibatch Loss= 0.000075, Training Accuracy= 1.00000
+Step 800, Minibatch Loss= 0.000072, Training Accuracy= 1.00000
+Step 900, Minibatch Loss= 0.000062, Training Accuracy= 1.00000
+Step 1000, Minibatch Loss= 0.000055, Training Accuracy= 1.00000
+Step 1100, Minibatch Loss= 0.000052, Training Accuracy= 1.00000
+Step 1200, Minibatch Loss= 0.000048, Training Accuracy= 1.00000
+Step 1300, Minibatch Loss= 0.000044, Training Accuracy= 1.00000
+Step 1400, Minibatch Loss= 0.000044, Training Accuracy= 1.00000
+Step 1500, Minibatch Loss= 0.000038, Training Accuracy= 1.00000
+Optimization Finished!
+Testing Accuracy: 1.0
+
+Model: 0 : seq len = 2, num_hidden = 5, replication: 2
+
+Step 1, Minibatch Loss= 0.817845, Training Accuracy= 0.52344
+Step 100, Minibatch Loss= 0.000232, Training Accuracy= 1.00000
+Step 200, Minibatch Loss= 0.000109, Training Accuracy= 1.00000
+Step 300, Minibatch Loss= 0.000080, Training Accuracy= 1.00000
+Step 400, Minibatch Loss= 0.000070, Training Accuracy= 1.00000
+Step 500, Minibatch Loss= 0.000062, Training Accuracy= 1.00000
+Step 600, Minibatch Loss= 0.000052, Training Accuracy= 1.00000
+Step 700, Minibatch Loss= 0.000047, Training Accuracy= 1.00000
+Step 800, Minibatch Loss= 0.000040, Training Accuracy= 1.00000
+Step 900, Minibatch Loss= 0.000040, Training Accuracy= 1.00000
+Step 1000, Minibatch Loss= 0.000039, Training Accuracy= 1.00000
+Step 1100, Minibatch Loss= 0.000037, Training Accuracy= 1.00000
+Step 1200, Minibatch Loss= 0.000035, Training Accuracy= 1.00000
+Step 1300, Minibatch Loss= 0.000033, Training Accuracy= 1.00000
+Step 1400, Minibatch Loss= 0.000032, Training Accuracy= 1.00000
+Step 1500, Minibatch Loss= 0.000031, Training Accuracy= 1.00000
+Optimization Finished!
+Testing Accuracy: 1.0
+
+Model: 0 : seq len = 2, num_hidden = 5, replication: 3
+
+Step 1, Minibatch Loss= 0.745488, Training Accuracy= 0.53125
+Step 100, Minibatch Loss= 0.000188, Training Accuracy= 1.00000
+Step 200, Minibatch Loss= 0.000081, Training Accuracy= 1.00000
+Step 300, Minibatch Loss= 0.000063, Training Accuracy= 1.00000
+Step 400, Minibatch Loss= 0.000059, Training Accuracy= 1.00000
+Step 500, Minibatch Loss= 0.000052, Training Accuracy= 1.00000
+Step 600, Minibatch Loss= 0.000050, Training Accuracy= 1.00000
+Step 700, Minibatch Loss= 0.000046, Training Accuracy= 1.00000
+Step 800, Minibatch Loss= 0.000039, Training Accuracy= 1.00000
+Step 900, Minibatch Loss= 0.000039, Training Accuracy= 1.00000
+Step 1000, Minibatch Loss= 0.000037, Training Accuracy= 1.00000
+Step 1100, Minibatch Loss= 0.000033, Training Accuracy= 1.00000
+Step 1200, Minibatch Loss= 0.000031, Training Accuracy= 1.00000
+Step 1300, Minibatch Loss= 0.000031, Training Accuracy= 1.00000
+Step 1400, Minibatch Loss= 0.000029, Training Accuracy= 1.00000
+Step 1500, Minibatch Loss= 0.000027, Training Accuracy= 1.00000
+Optimization Finished!
+Testing Accuracy: 1.0
+
+Model: 0 : seq len = 2, num_hidden = 5, replication: 4
+
+Step 1, Minibatch Loss= 0.714032, Training Accuracy= 0.75000
+Step 100, Minibatch Loss= 0.000061, Training Accuracy= 1.00000
+Step 200, Minibatch Loss= 0.000060, Training Accuracy= 1.00000
+Step 300, Minibatch Loss= 0.000054, Training Accuracy= 1.00000
+Step 400, Minibatch Loss= 0.000052, Training Accuracy= 1.00000
+Step 500, Minibatch Loss= 0.000046, Training Accuracy= 1.00000
+Step 600, Minibatch Loss= 0.000044, Training Accuracy= 1.00000
+Step 700, Minibatch Loss= 0.000042, Training Accuracy= 1.00000
+Step 800, Minibatch Loss= 0.000039, Training Accuracy= 1.00000
+Step 900, Minibatch Loss= 0.000038, Training Accuracy= 1.00000
+Step 1000, Minibatch Loss= 0.000033, Training Accuracy= 1.00000
+Step 1100, Minibatch Loss= 0.000034, Training Accuracy= 1.00000
+Step 1200, Minibatch Loss= 0.000031, Training Accuracy= 1.00000
+Step 1300, Minibatch Loss= 0.000027, Training Accuracy= 1.00000
+Step 1400, Minibatch Loss= 0.000028, Training Accuracy= 1.00000
+Step 1500, Minibatch Loss= 0.000026, Training Accuracy= 1.00000
+Optimization Finished!
+Testing Accuracy: 1.0
+
+Model: 0 : seq len = 2, num_hidden = 5, replication: 5
+
+Step 1, Minibatch Loss= 1.009539, Training Accuracy= 0.47656
+Step 100, Minibatch Loss= 0.411392, Training Accuracy= 0.78125
+Step 200, Minibatch Loss= 0.001693, Training Accuracy= 1.00000
+Step 300, Minibatch Loss= 0.001092, Training Accuracy= 1.00000
+Step 400, Minibatch Loss= 0.000600, Training Accuracy= 1.00000
+Step 500, Minibatch Loss= 0.000471, Training Accuracy= 1.00000
+Step 600, Minibatch Loss= 0.000379, Training Accuracy= 1.00000
+Step 700, Minibatch Loss= 0.000295, Training Accuracy= 1.00000
+Step 800, Minibatch Loss= 0.000246, Training Accuracy= 1.00000
+Step 900, Minibatch Loss= 0.000200, Training Accuracy= 1.00000
+Step 1000, Minibatch Loss= 0.000174, Training Accuracy= 1.00000
+Step 1100, Minibatch Loss= 0.000155, Training Accuracy= 1.00000
+Step 1200, Minibatch Loss= 0.000147, Training Accuracy= 1.00000
+Step 1300, Minibatch Loss= 0.000121, Training Accuracy= 1.00000
+Step 1400, Minibatch Loss= 0.000105, Training Accuracy= 1.00000
+Step 1500, Minibatch Loss= 0.000108, Training Accuracy= 1.00000
+Optimization Finished!
+Testing Accuracy: 1.0
+
+Model: 0 : seq len = 2, num_hidden = 5, replication: 6
+
+Step 1, Minibatch Loss= 0.755628, Training Accuracy= 0.73438
+Step 100, Minibatch Loss= 0.665271, Training Accuracy= 0.73438
+Step 200, Minibatch Loss= 0.000167, Training Accuracy= 1.00000
+Step 300, Minibatch Loss= 0.000115, Training Accuracy= 1.00000
+Step 400, Minibatch Loss= 0.000087, Training Accuracy= 1.00000
+Step 500, Minibatch Loss= 0.000076, Training Accuracy= 1.00000
+Step 600, Minibatch Loss= 0.000065, Training Accuracy= 1.00000
+Step 700, Minibatch Loss= 0.000057, Training Accuracy= 1.00000
+Step 800, Minibatch Loss= 0.000054, Training Accuracy= 1.00000
+Step 900, Minibatch Loss= 0.000049, Training Accuracy= 1.00000
+Step 1000, Minibatch Loss= 0.000047, Training Accuracy= 1.00000
+Step 1100, Minibatch Loss= 0.000042, Training Accuracy= 1.00000
+Step 1200, Minibatch Loss= 0.000040, Training Accuracy= 1.00000
+Step 1300, Minibatch Loss= 0.000038, Training Accuracy= 1.00000
+Step 1400, Minibatch Loss= 0.000035, Training Accuracy= 1.00000
+Step 1500, Minibatch Loss= 0.000033, Training Accuracy= 1.00000
+Optimization Finished!
+Testing Accuracy: 1.0
+
+Model: 0 : seq len = 2, num_hidden = 5, replication: 7
+
+Step 1, Minibatch Loss= 0.678749, Training Accuracy= 0.61719
+Step 100, Minibatch Loss= 0.000116, Training Accuracy= 1.00000
+Step 200, Minibatch Loss= 0.000073, Training Accuracy= 1.00000
+Step 300, Minibatch Loss= 0.000067, Training Accuracy= 1.00000
+Step 400, Minibatch Loss= 0.000052, Training Accuracy= 1.00000
+Step 500, Minibatch Loss= 0.000045, Training Accuracy= 1.00000
+Step 600, Minibatch Loss= 0.000039, Training Accuracy= 1.00000
+Step 700, Minibatch Loss= 0.000033, Training Accuracy= 1.00000
+Step 800, Minibatch Loss= 0.000032, Training Accuracy= 1.00000
+Step 900, Minibatch Loss= 0.000030, Training Accuracy= 1.00000
+Step 1000, Minibatch Loss= 0.000028, Training Accuracy= 1.00000
+Step 1100, Minibatch Loss= 0.000029, Training Accuracy= 1.00000
+Step 1200, Minibatch Loss= 0.000025, Training Accuracy= 1.00000
+Step 1300, Minibatch Loss= 0.000024, Training Accuracy= 1.00000
+Step 1400, Minibatch Loss= 0.000023, Training Accuracy= 1.00000
+Step 1500, Minibatch Loss= 0.000022, Training Accuracy= 1.00000
+Optimization Finished!
+Testing Accuracy: 1.0
+
+Model: 0 : seq len = 2, num_hidden = 5, replication: 8
+
+Step 1, Minibatch Loss= 0.714772, Training Accuracy= 0.48438
+Step 100, Minibatch Loss= 0.000255, Training Accuracy= 1.00000
+Step 200, Minibatch Loss= 0.000175, Training Accuracy= 1.00000
+Step 300, Minibatch Loss= 0.000133, Training Accuracy= 1.00000
+Step 400, Minibatch Loss= 0.000112, Training Accuracy= 1.00000
+Step 500, Minibatch Loss= 0.000094, Training Accuracy= 1.00000
+Step 600, Minibatch Loss= 0.000078, Training Accuracy= 1.00000
+Step 700, Minibatch Loss= 0.000068, Training Accuracy= 1.00000
+Step 800, Minibatch Loss= 0.000062, Training Accuracy= 1.00000
+Step 900, Minibatch Loss= 0.000056, Training Accuracy= 1.00000
+Step 1000, Minibatch Loss= 0.000049, Training Accuracy= 1.00000
+Step 1100, Minibatch Loss= 0.000046, Training Accuracy= 1.00000
+Step 1200, Minibatch Loss= 0.000045, Training Accuracy= 1.00000
+Step 1300, Minibatch Loss= 0.000041, Training Accuracy= 1.00000
+Step 1400, Minibatch Loss= 0.000040, Training Accuracy= 1.00000
+Step 1500, Minibatch Loss= 0.000035, Training Accuracy= 1.00000
+Optimization Finished!
+Testing Accuracy: 1.0
+
+Model: 0 : seq len = 2, num_hidden = 5, replication: 9
+
+Step 1, Minibatch Loss= 0.689596, Training Accuracy= 0.51562
+Step 100, Minibatch Loss= 0.000437, Training Accuracy= 1.00000
+Step 200, Minibatch Loss= 0.000198, Training Accuracy= 1.00000
+Step 300, Minibatch Loss= 0.000154, Training Accuracy= 1.00000
+Step 400, Minibatch Loss= 0.000117, Training Accuracy= 1.00000
+Step 500, Minibatch Loss= 0.000102, Training Accuracy= 1.00000
+Step 600, Minibatch Loss= 0.000090, Training Accuracy= 1.00000
+Step 700, Minibatch Loss= 0.000081, Training Accuracy= 1.00000
+Step 800, Minibatch Loss= 0.000075, Training Accuracy= 1.00000
+Step 900, Minibatch Loss= 0.000065, Training Accuracy= 1.00000
+Step 1000, Minibatch Loss= 0.000059, Training Accuracy= 1.00000
+Step 1100, Minibatch Loss= 0.000056, Training Accuracy= 1.00000
+Step 1200, Minibatch Loss= 0.000053, Training Accuracy= 1.00000
+Step 1300, Minibatch Loss= 0.000050, Training Accuracy= 1.00000
+Step 1400, Minibatch Loss= 0.000049, Training Accuracy= 1.00000
+Step 1500, Minibatch Loss= 0.000045, Training Accuracy= 1.00000
+Optimization Finished!
+Testing Accuracy: 1.0
+
+Model: 1 : seq len = 10, num_hidden = 5, replication: 0
+
+Step 1, Minibatch Loss= 0.727175, Training Accuracy= 0.49219
+Step 100, Minibatch Loss= 0.785491, Training Accuracy= 0.46875
+Step 200, Minibatch Loss= 0.693257, Training Accuracy= 0.50000
+Step 300, Minibatch Loss= 0.696365, Training Accuracy= 0.47656
+Step 400, Minibatch Loss= 0.737507, Training Accuracy= 0.46875
+Step 500, Minibatch Loss= 0.753788, Training Accuracy= 0.47656
+Step 600, Minibatch Loss= 0.694344, Training Accuracy= 0.48438
+Step 700, Minibatch Loss= 0.692575, Training Accuracy= 0.51562
+Step 800, Minibatch Loss= 0.776688, Training Accuracy= 0.40625
+Step 900, Minibatch Loss= 0.693581, Training Accuracy= 0.50781
+Step 1000, Minibatch Loss= 0.693441, Training Accuracy= 0.50000
+Step 1100, Minibatch Loss= 0.693577, Training Accuracy= 0.50781
+Step 1200, Minibatch Loss= 0.705014, Training Accuracy= 0.42969
+Step 1300, Minibatch Loss= 0.708537, Training Accuracy= 0.50781
+Step 1400, Minibatch Loss= 0.697852, Training Accuracy= 0.50781
+Step 1500, Minibatch Loss= 0.701604, Training Accuracy= 0.44531
+Optimization Finished!
+Testing Accuracy: 0.4987
+
+Model: 1 : seq len = 10, num_hidden = 5, replication: 1
+
+Step 1, Minibatch Loss= 0.699253, Training Accuracy= 0.53906
+Step 100, Minibatch Loss= 0.692808, Training Accuracy= 0.52344
+Step 200, Minibatch Loss= 0.699008, Training Accuracy= 0.49219
+Step 300, Minibatch Loss= 0.700301, Training Accuracy= 0.39844
+Step 400, Minibatch Loss= 0.784501, Training Accuracy= 0.41406
+Step 500, Minibatch Loss= 0.693441, Training Accuracy= 0.49219
+Step 600, Minibatch Loss= 0.706681, Training Accuracy= 0.49219
+Step 700, Minibatch Loss= 0.727776, Training Accuracy= 0.46875
+Step 800, Minibatch Loss= 0.723732, Training Accuracy= 0.55469
+Step 900, Minibatch Loss= 0.699795, Training Accuracy= 0.48438
+Step 1000, Minibatch Loss= 0.694774, Training Accuracy= 0.52344
+Step 1100, Minibatch Loss= 0.697355, Training Accuracy= 0.44531
+Step 1200, Minibatch Loss= 0.716527, Training Accuracy= 0.45312
+Step 1300, Minibatch Loss= 0.731576, Training Accuracy= 0.46875
+Step 1400, Minibatch Loss= 0.690617, Training Accuracy= 0.52344
+Step 1500, Minibatch Loss= 0.691341, Training Accuracy= 0.51562
+Optimization Finished!
+Testing Accuracy: 0.4917
+
+Model: 1 : seq len = 10, num_hidden = 5, replication: 2
+
+Step 1, Minibatch Loss= 0.736660, Training Accuracy= 0.46875
+Step 100, Minibatch Loss= 0.700664, Training Accuracy= 0.47656
+Step 200, Minibatch Loss= 0.696394, Training Accuracy= 0.45312
+Step 300, Minibatch Loss= 0.687865, Training Accuracy= 0.55469
+Step 400, Minibatch Loss= 0.693498, Training Accuracy= 0.50781
+Step 500, Minibatch Loss= 0.696016, Training Accuracy= 0.49219
+Step 600, Minibatch Loss= 0.684313, Training Accuracy= 0.57031
+Step 700, Minibatch Loss= 0.692659, Training Accuracy= 0.55469
+Step 800, Minibatch Loss= 0.693376, Training Accuracy= 0.46875
+Step 900, Minibatch Loss= 0.687900, Training Accuracy= 0.55469
+Step 1000, Minibatch Loss= 0.703766, Training Accuracy= 0.51562
+Step 1100, Minibatch Loss= 0.694482, Training Accuracy= 0.48438
+Step 1200, Minibatch Loss= 0.692551, Training Accuracy= 0.53125
+Step 1300, Minibatch Loss= 0.695618, Training Accuracy= 0.48438
+Step 1400, Minibatch Loss= 0.732441, Training Accuracy= 0.46875
+Step 1500, Minibatch Loss= 0.694235, Training Accuracy= 0.50000
+Optimization Finished!
+Testing Accuracy: 0.5058
+
+Model: 1 : seq len = 10, num_hidden = 5, replication: 3
+
+Step 1, Minibatch Loss= 0.691839, Training Accuracy= 0.52344
+Step 100, Minibatch Loss= 0.692659, Training Accuracy= 0.53906
+Step 200, Minibatch Loss= 0.661906, Training Accuracy= 0.62500
+Step 300, Minibatch Loss= 0.688240, Training Accuracy= 0.59375
+Step 400, Minibatch Loss= 0.698535, Training Accuracy= 0.49219
+Step 500, Minibatch Loss= 0.688976, Training Accuracy= 0.55469
+Step 600, Minibatch Loss= 0.743400, Training Accuracy= 0.51562
+Step 700, Minibatch Loss= 0.686547, Training Accuracy= 0.56250
+Step 800, Minibatch Loss= 0.692340, Training Accuracy= 0.55469
+Step 900, Minibatch Loss= 0.706207, Training Accuracy= 0.50000
+Step 1000, Minibatch Loss= 0.741813, Training Accuracy= 0.46094
+Step 1100, Minibatch Loss= 0.699619, Training Accuracy= 0.42188
+Step 1200, Minibatch Loss= 0.691985, Training Accuracy= 0.53125
+Step 1300, Minibatch Loss= 0.711152, Training Accuracy= 0.53125
+Step 1400, Minibatch Loss= 0.701243, Training Accuracy= 0.50781
+Step 1500, Minibatch Loss= 0.692594, Training Accuracy= 0.52344
+Optimization Finished!
+Testing Accuracy: 0.5021
+
+Model: 1 : seq len = 10, num_hidden = 5, replication: 4
+
+Step 1, Minibatch Loss= 0.954498, Training Accuracy= 0.47656
+Step 100, Minibatch Loss= 0.696200, Training Accuracy= 0.51562
+Step 200, Minibatch Loss= 0.695463, Training Accuracy= 0.43750
+Step 300, Minibatch Loss= 0.721591, Training Accuracy= 0.53125
+Step 400, Minibatch Loss= 0.693014, Training Accuracy= 0.50000
+Step 500, Minibatch Loss= 0.711808, Training Accuracy= 0.46875
+Step 600, Minibatch Loss= 0.690894, Training Accuracy= 0.55469
+Step 700, Minibatch Loss= 0.711039, Training Accuracy= 0.49219
+Step 800, Minibatch Loss= 0.700421, Training Accuracy= 0.44531
+Step 900, Minibatch Loss= 0.710714, Training Accuracy= 0.45312
+Step 1000, Minibatch Loss= 0.695329, Training Accuracy= 0.48438
+Step 1100, Minibatch Loss= 0.692910, Training Accuracy= 0.51562
+Step 1200, Minibatch Loss= 0.699372, Training Accuracy= 0.47656
+Step 1300, Minibatch Loss= 0.693431, Training Accuracy= 0.50781
+Step 1400, Minibatch Loss= 0.695079, Training Accuracy= 0.50781
+Step 1500, Minibatch Loss= 0.692770, Training Accuracy= 0.53125
+Optimization Finished!
+Testing Accuracy: 0.5043
+
+Model: 1 : seq len = 10, num_hidden = 5, replication: 5
+
+Step 1, Minibatch Loss= 0.705356, Training Accuracy= 0.50781
+Step 100, Minibatch Loss= 0.687173, Training Accuracy= 0.58594
+Step 200, Minibatch Loss= 0.685338, Training Accuracy= 0.56250
+Step 300, Minibatch Loss= 0.692185, Training Accuracy= 0.50781
+Step 400, Minibatch Loss= 0.695742, Training Accuracy= 0.46875
+Step 500, Minibatch Loss= 0.693437, Training Accuracy= 0.47656
+Step 600, Minibatch Loss= 0.698625, Training Accuracy= 0.53906
+Step 700, Minibatch Loss= 0.697031, Training Accuracy= 0.47656
+Step 800, Minibatch Loss= 0.685795, Training Accuracy= 0.56250
+Step 900, Minibatch Loss= 0.689109, Training Accuracy= 0.57812
+Step 1000, Minibatch Loss= 0.700717, Training Accuracy= 0.50781
+Step 1100, Minibatch Loss= 0.712413, Training Accuracy= 0.46875
+Step 1200, Minibatch Loss= 0.708221, Training Accuracy= 0.48438
+Step 1300, Minibatch Loss= 0.709831, Training Accuracy= 0.48438
+Step 1400, Minibatch Loss= 0.692063, Training Accuracy= 0.54688
+Step 1500, Minibatch Loss= 0.695950, Training Accuracy= 0.52344
+Optimization Finished!
+Testing Accuracy: 0.4979
+
+Model: 1 : seq len = 10, num_hidden = 5, replication: 6
+
+Step 1, Minibatch Loss= 0.791412, Training Accuracy= 0.47656
+Step 100, Minibatch Loss= 0.754310, Training Accuracy= 0.48438
+Step 200, Minibatch Loss= 0.694738, Training Accuracy= 0.48438
+Step 300, Minibatch Loss= 0.691166, Training Accuracy= 0.52344
+Step 400, Minibatch Loss= 0.722269, Training Accuracy= 0.48438
+Step 500, Minibatch Loss= 0.694233, Training Accuracy= 0.55469
+Step 600, Minibatch Loss= 0.696520, Training Accuracy= 0.49219
+Step 700, Minibatch Loss= 0.693074, Training Accuracy= 0.46875
+Step 800, Minibatch Loss= 0.725426, Training Accuracy= 0.40625
+Step 900, Minibatch Loss= 0.763659, Training Accuracy= 0.51562
+Step 1000, Minibatch Loss= 0.690591, Training Accuracy= 0.56250
+Step 1100, Minibatch Loss= 0.683313, Training Accuracy= 0.57812
+Step 1200, Minibatch Loss= 0.704397, Training Accuracy= 0.47656
+Step 1300, Minibatch Loss= 0.759275, Training Accuracy= 0.46875
+Step 1400, Minibatch Loss= 0.694239, Training Accuracy= 0.46875
+Step 1500, Minibatch Loss= 0.688285, Training Accuracy= 0.54688
+Optimization Finished!
+Testing Accuracy: 0.5053
+
+Model: 1 : seq len = 10, num_hidden = 5, replication: 7
+
+Step 1, Minibatch Loss= 0.695848, Training Accuracy= 0.52344
+Step 100, Minibatch Loss= 0.693238, Training Accuracy= 0.58594
+Step 200, Minibatch Loss= 0.682382, Training Accuracy= 0.57812
+Step 300, Minibatch Loss= 0.694442, Training Accuracy= 0.46875
+Step 400, Minibatch Loss= 0.723444, Training Accuracy= 0.47656
+Step 500, Minibatch Loss= 0.719264, Training Accuracy= 0.59375
+Step 600, Minibatch Loss= 0.696081, Training Accuracy= 0.50781
+Step 700, Minibatch Loss= 0.693171, Training Accuracy= 0.51562
+Step 800, Minibatch Loss= 0.678123, Training Accuracy= 0.58594
+Step 900, Minibatch Loss= 0.754867, Training Accuracy= 0.48438
+Step 1000, Minibatch Loss= 0.702710, Training Accuracy= 0.46875
+Step 1100, Minibatch Loss= 0.709285, Training Accuracy= 0.45312
+Step 1200, Minibatch Loss= 0.734096, Training Accuracy= 0.42969
+Step 1300, Minibatch Loss= 0.688887, Training Accuracy= 0.55469
+Step 1400, Minibatch Loss= 0.739132, Training Accuracy= 0.46094
+Step 1500, Minibatch Loss= 0.696377, Training Accuracy= 0.54688
+Optimization Finished!
+Testing Accuracy: 0.4952
+
+Model: 1 : seq len = 10, num_hidden = 5, replication: 8
+
+Step 1, Minibatch Loss= 0.692501, Training Accuracy= 0.54688
+Step 100, Minibatch Loss= 0.690614, Training Accuracy= 0.53906
+Step 200, Minibatch Loss= 0.695918, Training Accuracy= 0.45312
+Step 300, Minibatch Loss= 0.689551, Training Accuracy= 0.59375
+Step 400, Minibatch Loss= 0.717810, Training Accuracy= 0.44531
+Step 500, Minibatch Loss= 0.697265, Training Accuracy= 0.52344
+Step 600, Minibatch Loss= 0.693810, Training Accuracy= 0.47656
+Step 700, Minibatch Loss= 0.694355, Training Accuracy= 0.50000
+Step 800, Minibatch Loss= 0.693361, Training Accuracy= 0.50000
+Step 900, Minibatch Loss= 0.678507, Training Accuracy= 0.58594
+Step 1000, Minibatch Loss= 0.693869, Training Accuracy= 0.53125
+Step 1100, Minibatch Loss= 0.687905, Training Accuracy= 0.55469
+Step 1200, Minibatch Loss= 0.692942, Training Accuracy= 0.51562
+Step 1300, Minibatch Loss= 0.735198, Training Accuracy= 0.51562
+Step 1400, Minibatch Loss= 0.684473, Training Accuracy= 0.57812
+Step 1500, Minibatch Loss= 0.686900, Training Accuracy= 0.55469
+Optimization Finished!
+Testing Accuracy: 0.4999
+
+Model: 1 : seq len = 10, num_hidden = 5, replication: 9
+
+Step 1, Minibatch Loss= 0.763623, Training Accuracy= 0.52344
+Step 100, Minibatch Loss= 0.701389, Training Accuracy= 0.44531
+Step 200, Minibatch Loss= 0.701564, Training Accuracy= 0.49219
+Step 300, Minibatch Loss= 0.718107, Training Accuracy= 0.49219
+Step 400, Minibatch Loss= 0.692433, Training Accuracy= 0.52344
+Step 500, Minibatch Loss= 0.717977, Training Accuracy= 0.50000
+Step 600, Minibatch Loss= 0.695148, Training Accuracy= 0.47656
+Step 700, Minibatch Loss= 0.703560, Training Accuracy= 0.51562
+Step 800, Minibatch Loss= 0.715042, Training Accuracy= 0.46875
+Step 900, Minibatch Loss= 0.708574, Training Accuracy= 0.53125
+Step 1000, Minibatch Loss= 0.706989, Training Accuracy= 0.50000
+Step 1100, Minibatch Loss= 0.696535, Training Accuracy= 0.46875
+Step 1200, Minibatch Loss= 0.689139, Training Accuracy= 0.55469
+Step 1300, Minibatch Loss= 0.692449, Training Accuracy= 0.55469
+Step 1400, Minibatch Loss= 0.710321, Training Accuracy= 0.50000
+Step 1500, Minibatch Loss= 0.686997, Training Accuracy= 0.60156
+Optimization Finished!
+Testing Accuracy: 0.5026
+
+Model: 2 : seq len = 25, num_hidden = 5, replication: 0
+
+Step 1, Minibatch Loss= 1.706190, Training Accuracy= 0.45312
+Step 100, Minibatch Loss= 0.692348, Training Accuracy= 0.53125
+Step 200, Minibatch Loss= 0.712900, Training Accuracy= 0.46875
+Step 300, Minibatch Loss= 0.705007, Training Accuracy= 0.47656
+Step 400, Minibatch Loss= 0.714958, Training Accuracy= 0.46875
+Step 500, Minibatch Loss= 0.692679, Training Accuracy= 0.52344
+Step 600, Minibatch Loss= 0.699225, Training Accuracy= 0.42188
+Step 700, Minibatch Loss= 0.692938, Training Accuracy= 0.51562
+Step 800, Minibatch Loss= 0.739351, Training Accuracy= 0.47656
+Step 900, Minibatch Loss= 0.694266, Training Accuracy= 0.51562
+Step 1000, Minibatch Loss= 0.694945, Training Accuracy= 0.50000
+Step 1100, Minibatch Loss= 0.701938, Training Accuracy= 0.47656
+Step 1200, Minibatch Loss= 0.694873, Training Accuracy= 0.56250
+Step 1300, Minibatch Loss= 0.686075, Training Accuracy= 0.57031
+Step 1400, Minibatch Loss= 0.701210, Training Accuracy= 0.50781
+Step 1500, Minibatch Loss= 0.690045, Training Accuracy= 0.53906
+Optimization Finished!
+Testing Accuracy: 0.5126
+
+Model: 2 : seq len = 25, num_hidden = 5, replication: 1
+
+Step 1, Minibatch Loss= 0.718490, Training Accuracy= 0.55469
+Step 100, Minibatch Loss= 0.709300, Training Accuracy= 0.48438
+Step 200, Minibatch Loss= 0.695085, Training Accuracy= 0.47656
+Step 300, Minibatch Loss= 0.692910, Training Accuracy= 0.51562
+Step 400, Minibatch Loss= 0.830797, Training Accuracy= 0.50000
+Step 500, Minibatch Loss= 0.719824, Training Accuracy= 0.53906
+Step 600, Minibatch Loss= 0.696262, Training Accuracy= 0.49219
+Step 700, Minibatch Loss= 0.692719, Training Accuracy= 0.51562
+Step 800, Minibatch Loss= 0.751131, Training Accuracy= 0.57031
+Step 900, Minibatch Loss= 0.740524, Training Accuracy= 0.48438
+Step 1000, Minibatch Loss= 0.769288, Training Accuracy= 0.42188
+Step 1100, Minibatch Loss= 0.653752, Training Accuracy= 0.64062
+Step 1200, Minibatch Loss= 0.729848, Training Accuracy= 0.51562
+Step 1300, Minibatch Loss= 0.709545, Training Accuracy= 0.50781
+Step 1400, Minibatch Loss= 0.720342, Training Accuracy= 0.53906
+Step 1500, Minibatch Loss= 0.720370, Training Accuracy= 0.54688
+Optimization Finished!
+Testing Accuracy: 0.4961
+
+Model: 2 : seq len = 25, num_hidden = 5, replication: 2
+
+Step 1, Minibatch Loss= 1.356253, Training Accuracy= 0.52344
+Step 100, Minibatch Loss= 0.690969, Training Accuracy= 0.53125
+Step 200, Minibatch Loss= 0.727733, Training Accuracy= 0.50781
+Step 300, Minibatch Loss= 0.694363, Training Accuracy= 0.49219
+Step 400, Minibatch Loss= 0.726386, Training Accuracy= 0.46875
+Step 500, Minibatch Loss= 0.722614, Training Accuracy= 0.52344
+Step 600, Minibatch Loss= 0.802479, Training Accuracy= 0.40625
+Step 700, Minibatch Loss= 0.696732, Training Accuracy= 0.53906
+Step 800, Minibatch Loss= 0.700030, Training Accuracy= 0.51562
+Step 900, Minibatch Loss= 0.791628, Training Accuracy= 0.50781
+Step 1000, Minibatch Loss= 0.720105, Training Accuracy= 0.53906
+Step 1100, Minibatch Loss= 0.748067, Training Accuracy= 0.45312
+Step 1200, Minibatch Loss= 0.692563, Training Accuracy= 0.52344
+Step 1300, Minibatch Loss= 0.710830, Training Accuracy= 0.50000
+Step 1400, Minibatch Loss= 0.710485, Training Accuracy= 0.53125
+Step 1500, Minibatch Loss= 0.717876, Training Accuracy= 0.40625
+Optimization Finished!
+Testing Accuracy: 0.5006
+
+Model: 2 : seq len = 25, num_hidden = 5, replication: 3
+
+Step 1, Minibatch Loss= 0.694270, Training Accuracy= 0.50781
+Step 100, Minibatch Loss= 0.692451, Training Accuracy= 0.51562
+Step 200, Minibatch Loss= 0.783491, Training Accuracy= 0.45312
+Step 300, Minibatch Loss= 0.693610, Training Accuracy= 0.57812
+Step 400, Minibatch Loss= 0.692827, Training Accuracy= 0.50781
+Step 500, Minibatch Loss= 0.694348, Training Accuracy= 0.39844
+Step 600, Minibatch Loss= 0.714963, Training Accuracy= 0.53906
+Step 700, Minibatch Loss= 0.730652, Training Accuracy= 0.47656
+Step 800, Minibatch Loss= 0.692035, Training Accuracy= 0.53125
+Step 900, Minibatch Loss= 0.735742, Training Accuracy= 0.46875
+Step 1000, Minibatch Loss= 0.699115, Training Accuracy= 0.47656
+Step 1100, Minibatch Loss= 0.712941, Training Accuracy= 0.49219
+Step 1200, Minibatch Loss= 0.697973, Training Accuracy= 0.50781
+Step 1300, Minibatch Loss= 0.748514, Training Accuracy= 0.46875
+Step 1400, Minibatch Loss= 0.688329, Training Accuracy= 0.57812
+Step 1500, Minibatch Loss= 0.750687, Training Accuracy= 0.46875
+Optimization Finished!
+Testing Accuracy: 0.505
+
+Model: 2 : seq len = 25, num_hidden = 5, replication: 4
+
+Step 1, Minibatch Loss= 0.763812, Training Accuracy= 0.52344
+Step 100, Minibatch Loss= 0.714585, Training Accuracy= 0.45312
+Step 200, Minibatch Loss= 0.691390, Training Accuracy= 0.53125
+Step 300, Minibatch Loss= 0.715071, Training Accuracy= 0.50781
+Step 400, Minibatch Loss= 0.692148, Training Accuracy= 0.54688
+Step 500, Minibatch Loss= 0.694882, Training Accuracy= 0.52344
+Step 600, Minibatch Loss= 0.695713, Training Accuracy= 0.50781
+Step 700, Minibatch Loss= 0.701383, Training Accuracy= 0.51562
+Step 800, Minibatch Loss= 0.691703, Training Accuracy= 0.57812
+Step 900, Minibatch Loss= 0.689778, Training Accuracy= 0.57812
+Step 1000, Minibatch Loss= 0.693951, Training Accuracy= 0.53906
+Step 1100, Minibatch Loss= 0.701897, Training Accuracy= 0.47656
+Step 1200, Minibatch Loss= 0.699012, Training Accuracy= 0.49219
+Step 1300, Minibatch Loss= 0.695132, Training Accuracy= 0.43750
+Step 1400, Minibatch Loss= 0.691705, Training Accuracy= 0.54688
+Step 1500, Minibatch Loss= 0.708133, Training Accuracy= 0.45312
+Optimization Finished!
+Testing Accuracy: 0.5048
+
+Model: 2 : seq len = 25, num_hidden = 5, replication: 5
+
+Step 1, Minibatch Loss= 0.699580, Training Accuracy= 0.46875
+Step 100, Minibatch Loss= 0.720300, Training Accuracy= 0.42969
+Step 200, Minibatch Loss= 0.688755, Training Accuracy= 0.54688
+Step 300, Minibatch Loss= 0.737025, Training Accuracy= 0.50000
+Step 400, Minibatch Loss= 0.731502, Training Accuracy= 0.49219
+Step 500, Minibatch Loss= 0.690048, Training Accuracy= 0.53906
+Step 600, Minibatch Loss= 0.693451, Training Accuracy= 0.50000
+Step 700, Minibatch Loss= 0.694423, Training Accuracy= 0.51562
+Step 800, Minibatch Loss= 0.703217, Training Accuracy= 0.54688
+Step 900, Minibatch Loss= 0.695327, Training Accuracy= 0.48438
+Step 1000, Minibatch Loss= 0.689030, Training Accuracy= 0.54688
+Step 1100, Minibatch Loss= 0.693217, Training Accuracy= 0.46875
+Step 1200, Minibatch Loss= 0.697870, Training Accuracy= 0.47656
+Step 1300, Minibatch Loss= 0.692739, Training Accuracy= 0.53125
+Step 1400, Minibatch Loss= 0.718421, Training Accuracy= 0.48438
+Step 1500, Minibatch Loss= 0.689038, Training Accuracy= 0.54688
+Optimization Finished!
+Testing Accuracy: 0.4963
+
+Model: 2 : seq len = 25, num_hidden = 5, replication: 6
+
+Step 1, Minibatch Loss= 0.742405, Training Accuracy= 0.48438
+Step 100, Minibatch Loss= 0.711926, Training Accuracy= 0.50000
+Step 200, Minibatch Loss= 0.688818, Training Accuracy= 0.53906
+Step 300, Minibatch Loss= 0.691743, Training Accuracy= 0.53906
+Step 400, Minibatch Loss= 0.694838, Training Accuracy= 0.44531
+Step 500, Minibatch Loss= 0.693238, Training Accuracy= 0.50000
+Step 600, Minibatch Loss= 0.706525, Training Accuracy= 0.49219
+Step 700, Minibatch Loss= 0.698610, Training Accuracy= 0.48438
+Step 800, Minibatch Loss= 0.691750, Training Accuracy= 0.50000
+Step 900, Minibatch Loss= 0.701357, Training Accuracy= 0.50000
+Step 1000, Minibatch Loss= 0.701985, Training Accuracy= 0.44531
+Step 1100, Minibatch Loss= 0.708477, Training Accuracy= 0.48438
+Step 1200, Minibatch Loss= 0.695039, Training Accuracy= 0.50781
+Step 1300, Minibatch Loss= 0.693591, Training Accuracy= 0.47656
+Step 1400, Minibatch Loss= 0.693992, Training Accuracy= 0.50781
+Step 1500, Minibatch Loss= 0.687527, Training Accuracy= 0.56250
+Optimization Finished!
+Testing Accuracy: 0.4953
+
+Model: 2 : seq len = 25, num_hidden = 5, replication: 7
+
+Step 1, Minibatch Loss= 0.698136, Training Accuracy= 0.46875
+Step 100, Minibatch Loss= 0.737798, Training Accuracy= 0.44531
+Step 200, Minibatch Loss= 0.698596, Training Accuracy= 0.51562
+Step 300, Minibatch Loss= 0.704222, Training Accuracy= 0.50781
+Step 400, Minibatch Loss= 0.755661, Training Accuracy= 0.42969
+Step 500, Minibatch Loss= 0.692610, Training Accuracy= 0.53125
+Step 600, Minibatch Loss= 0.704735, Training Accuracy= 0.55469
+Step 700, Minibatch Loss= 0.683761, Training Accuracy= 0.57812
+Step 800, Minibatch Loss= 0.734618, Training Accuracy= 0.47656
+Step 900, Minibatch Loss= 0.704874, Training Accuracy= 0.50781
+Step 1000, Minibatch Loss= 0.702868, Training Accuracy= 0.49219
+Step 1100, Minibatch Loss= 0.724040, Training Accuracy= 0.51562
+Step 1200, Minibatch Loss= 0.695116, Training Accuracy= 0.56250
+Step 1300, Minibatch Loss= 0.732755, Training Accuracy= 0.50000
+Step 1400, Minibatch Loss= 0.683270, Training Accuracy= 0.57031
+Step 1500, Minibatch Loss= 0.709903, Training Accuracy= 0.49219
+Optimization Finished!
+Testing Accuracy: 0.4949
+
+Model: 2 : seq len = 25, num_hidden = 5, replication: 8
+
+Step 1, Minibatch Loss= 1.211421, Training Accuracy= 0.55469
+Step 100, Minibatch Loss= 0.687553, Training Accuracy= 0.57031
+Step 200, Minibatch Loss= 0.707223, Training Accuracy= 0.49219
+Step 300, Minibatch Loss= 0.718188, Training Accuracy= 0.45312
+Step 400, Minibatch Loss= 0.689225, Training Accuracy= 0.53906
+Step 500, Minibatch Loss= 0.699511, Training Accuracy= 0.48438
+Step 600, Minibatch Loss= 0.694423, Training Accuracy= 0.52344
+Step 700, Minibatch Loss= 0.692580, Training Accuracy= 0.52344
+Step 800, Minibatch Loss= 0.697274, Training Accuracy= 0.50000
+Step 900, Minibatch Loss= 0.694421, Training Accuracy= 0.46094
+Step 1000, Minibatch Loss= 0.697353, Training Accuracy= 0.50000
+Step 1100, Minibatch Loss= 0.698224, Training Accuracy= 0.50781
+Step 1200, Minibatch Loss= 0.693259, Training Accuracy= 0.50000
+Step 1300, Minibatch Loss= 0.692744, Training Accuracy= 0.53125
+Step 1400, Minibatch Loss= 0.689851, Training Accuracy= 0.53906
+Step 1500, Minibatch Loss= 0.701929, Training Accuracy= 0.48438
+Optimization Finished!
+Testing Accuracy: 0.4954
+
+Model: 2 : seq len = 25, num_hidden = 5, replication: 9
+
+Step 1, Minibatch Loss= 0.707291, Training Accuracy= 0.46094
+Step 100, Minibatch Loss= 0.691125, Training Accuracy= 0.52344
+Step 200, Minibatch Loss= 0.696138, Training Accuracy= 0.41406
+Step 300, Minibatch Loss= 0.689848, Training Accuracy= 0.53906
+Step 400, Minibatch Loss= 0.705380, Training Accuracy= 0.42969
+Step 500, Minibatch Loss= 0.720025, Training Accuracy= 0.50000
+Step 600, Minibatch Loss= 0.694423, Training Accuracy= 0.50781
+Step 700, Minibatch Loss= 0.693094, Training Accuracy= 0.52344
+Step 800, Minibatch Loss= 0.695971, Training Accuracy= 0.51562
+Step 900, Minibatch Loss= 0.729638, Training Accuracy= 0.46094
+Step 1000, Minibatch Loss= 0.694358, Training Accuracy= 0.50000
+Step 1100, Minibatch Loss= 0.695363, Training Accuracy= 0.44531
+Step 1200, Minibatch Loss= 0.681884, Training Accuracy= 0.57812
+Step 1300, Minibatch Loss= 0.708269, Training Accuracy= 0.50781
+Step 1400, Minibatch Loss= 0.699990, Training Accuracy= 0.49219
+Step 1500, Minibatch Loss= 0.692138, Training Accuracy= 0.49219
+Optimization Finished!
+Testing Accuracy: 0.5049
+
+Model: 3 : seq len = 50, num_hidden = 5, replication: 0
+
+Step 1, Minibatch Loss= 0.708323, Training Accuracy= 0.53906
+Step 100, Minibatch Loss= 0.689630, Training Accuracy= 0.51562
+Step 200, Minibatch Loss= 0.706732, Training Accuracy= 0.50000
+Step 300, Minibatch Loss= 0.696647, Training Accuracy= 0.53125
+Step 400, Minibatch Loss= 0.709059, Training Accuracy= 0.48438
+Step 500, Minibatch Loss= 0.692529, Training Accuracy= 0.53125
+Step 600, Minibatch Loss= 0.694245, Training Accuracy= 0.52344
+Step 700, Minibatch Loss= 0.712245, Training Accuracy= 0.54688
+Step 800, Minibatch Loss= 0.679096, Training Accuracy= 0.57812
+Step 900, Minibatch Loss= 0.685847, Training Accuracy= 0.54688
+Step 1000, Minibatch Loss= 0.692870, Training Accuracy= 0.50781
+Step 1100, Minibatch Loss= 0.736635, Training Accuracy= 0.47656
+Step 1200, Minibatch Loss= 0.701124, Training Accuracy= 0.50000
+Step 1300, Minibatch Loss= 0.719721, Training Accuracy= 0.45312
+Step 1400, Minibatch Loss= 0.692094, Training Accuracy= 0.59375
+Step 1500, Minibatch Loss= 0.696379, Training Accuracy= 0.50781
+Optimization Finished!
+Testing Accuracy: 0.4983
+
+Model: 3 : seq len = 50, num_hidden = 5, replication: 1
+
+Step 1, Minibatch Loss= 0.762191, Training Accuracy= 0.50781
+Step 100, Minibatch Loss= 0.690222, Training Accuracy= 0.54688
+Step 200, Minibatch Loss= 0.698869, Training Accuracy= 0.48438
+Step 300, Minibatch Loss= 0.712522, Training Accuracy= 0.46875
+Step 400, Minibatch Loss= 0.697510, Training Accuracy= 0.49219
+Step 500, Minibatch Loss= 0.695109, Training Accuracy= 0.48438
+Step 600, Minibatch Loss= 0.707417, Training Accuracy= 0.51562
+Step 700, Minibatch Loss= 0.699546, Training Accuracy= 0.50000
+Step 800, Minibatch Loss= 0.689691, Training Accuracy= 0.57812
+Step 900, Minibatch Loss= 0.673869, Training Accuracy= 0.61719
+Step 1000, Minibatch Loss= 0.694880, Training Accuracy= 0.46094
+Step 1100, Minibatch Loss= 0.759031, Training Accuracy= 0.48438
+Step 1200, Minibatch Loss= 0.688977, Training Accuracy= 0.54688
+Step 1300, Minibatch Loss= 0.708353, Training Accuracy= 0.46094
+Step 1400, Minibatch Loss= 0.694947, Training Accuracy= 0.44531
+Step 1500, Minibatch Loss= 0.749101, Training Accuracy= 0.38281
+Optimization Finished!
+Testing Accuracy: 0.4991
+
+Model: 3 : seq len = 50, num_hidden = 5, replication: 2
+
+Step 1, Minibatch Loss= 0.774412, Training Accuracy= 0.47656
+Step 100, Minibatch Loss= 0.679623, Training Accuracy= 0.60156
+Step 200, Minibatch Loss= 0.691471, Training Accuracy= 0.53125
+Step 300, Minibatch Loss= 0.703543, Training Accuracy= 0.50000
+Step 400, Minibatch Loss= 0.689787, Training Accuracy= 0.54688
+Step 500, Minibatch Loss= 0.691577, Training Accuracy= 0.52344
+Step 600, Minibatch Loss= 0.695087, Training Accuracy= 0.47656
+Step 700, Minibatch Loss= 0.693422, Training Accuracy= 0.49219
+Step 800, Minibatch Loss= 0.701458, Training Accuracy= 0.50000
+Step 900, Minibatch Loss= 0.709736, Training Accuracy= 0.48438
+Step 1000, Minibatch Loss= 0.690425, Training Accuracy= 0.53906
+Step 1100, Minibatch Loss= 0.685438, Training Accuracy= 0.57031
+Step 1200, Minibatch Loss= 0.692448, Training Accuracy= 0.52344
+Step 1300, Minibatch Loss= 0.703457, Training Accuracy= 0.41406
+Step 1400, Minibatch Loss= 0.700300, Training Accuracy= 0.48438
+Step 1500, Minibatch Loss= 0.686932, Training Accuracy= 0.56250
+Optimization Finished!
+Testing Accuracy: 0.4935
+
+Model: 3 : seq len = 50, num_hidden = 5, replication: 3
+
+Step 1, Minibatch Loss= 0.949644, Training Accuracy= 0.58594
+Step 100, Minibatch Loss= 0.692482, Training Accuracy= 0.53125
+Step 200, Minibatch Loss= 0.676706, Training Accuracy= 0.59375
+Step 300, Minibatch Loss= 0.691450, Training Accuracy= 0.52344
+Step 400, Minibatch Loss= 0.688172, Training Accuracy= 0.54688
+Step 500, Minibatch Loss= 0.696805, Training Accuracy= 0.47656
+Step 600, Minibatch Loss= 0.695069, Training Accuracy= 0.52344
+Step 700, Minibatch Loss= 0.706757, Training Accuracy= 0.44531
+Step 800, Minibatch Loss= 0.695484, Training Accuracy= 0.48438
+Step 900, Minibatch Loss= 0.694088, Training Accuracy= 0.50781
+Step 1000, Minibatch Loss= 0.693884, Training Accuracy= 0.55469
+Step 1100, Minibatch Loss= 0.689721, Training Accuracy= 0.57031
+Step 1200, Minibatch Loss= 0.697200, Training Accuracy= 0.49219
+Step 1300, Minibatch Loss= 0.698868, Training Accuracy= 0.39062
+Step 1400, Minibatch Loss= 0.689871, Training Accuracy= 0.53125
+Step 1500, Minibatch Loss= 0.738768, Training Accuracy= 0.50000
+Optimization Finished!
+Testing Accuracy: 0.4985
+
+Model: 3 : seq len = 50, num_hidden = 5, replication: 4
+
+Step 1, Minibatch Loss= 0.691652, Training Accuracy= 0.53125
+Step 100, Minibatch Loss= 0.706103, Training Accuracy= 0.51562
+Step 200, Minibatch Loss= 0.687960, Training Accuracy= 0.55469
+Step 300, Minibatch Loss= 0.698796, Training Accuracy= 0.47656
+Step 400, Minibatch Loss= 0.698533, Training Accuracy= 0.49219
+Step 500, Minibatch Loss= 0.706593, Training Accuracy= 0.42188
+Step 600, Minibatch Loss= 0.712092, Training Accuracy= 0.53125
+Step 700, Minibatch Loss= 0.742461, Training Accuracy= 0.47656
+Step 800, Minibatch Loss= 0.696825, Training Accuracy= 0.50000
+Step 900, Minibatch Loss= 0.694546, Training Accuracy= 0.49219
+Step 1000, Minibatch Loss= 0.757803, Training Accuracy= 0.47656
+Step 1100, Minibatch Loss= 0.695986, Training Accuracy= 0.49219
+Step 1200, Minibatch Loss= 0.699571, Training Accuracy= 0.47656
+Step 1300, Minibatch Loss= 0.706975, Training Accuracy= 0.46875
+Step 1400, Minibatch Loss= 0.737932, Training Accuracy= 0.46875
+Step 1500, Minibatch Loss= 0.688931, Training Accuracy= 0.54688
+Optimization Finished!
+Testing Accuracy: 0.502
+
+Model: 3 : seq len = 50, num_hidden = 5, replication: 5
+
+Step 1, Minibatch Loss= 0.923875, Training Accuracy= 0.50781
+Step 100, Minibatch Loss= 0.689812, Training Accuracy= 0.54688
+Step 200, Minibatch Loss= 0.721899, Training Accuracy= 0.47656
+Step 300, Minibatch Loss= 0.692922, Training Accuracy= 0.52344
+Step 400, Minibatch Loss= 0.698971, Training Accuracy= 0.48438
+Step 500, Minibatch Loss= 0.686193, Training Accuracy= 0.57031
+Step 600, Minibatch Loss= 0.696850, Training Accuracy= 0.52344
+Step 700, Minibatch Loss= 0.692885, Training Accuracy= 0.51562
+Step 800, Minibatch Loss= 0.694688, Training Accuracy= 0.50781
+Step 900, Minibatch Loss= 0.747227, Training Accuracy= 0.45312
+Step 1000, Minibatch Loss= 0.701352, Training Accuracy= 0.52344
+Step 1100, Minibatch Loss= 0.690821, Training Accuracy= 0.56250
+Step 1200, Minibatch Loss= 0.694831, Training Accuracy= 0.49219
+Step 1300, Minibatch Loss= 0.695983, Training Accuracy= 0.51562
+Step 1400, Minibatch Loss= 0.690693, Training Accuracy= 0.53125
+Step 1500, Minibatch Loss= 0.702377, Training Accuracy= 0.42188
+Optimization Finished!
+Testing Accuracy: 0.5053
+
+Model: 3 : seq len = 50, num_hidden = 5, replication: 6
+
+Step 1, Minibatch Loss= 0.700940, Training Accuracy= 0.55469
+Step 100, Minibatch Loss= 0.706101, Training Accuracy= 0.50000
+Step 200, Minibatch Loss= 0.693135, Training Accuracy= 0.50000
+Step 300, Minibatch Loss= 0.679261, Training Accuracy= 0.58594
+Step 400, Minibatch Loss= 0.725226, Training Accuracy= 0.49219
+Step 500, Minibatch Loss= 0.693547, Training Accuracy= 0.53125
+Step 600, Minibatch Loss= 0.694570, Training Accuracy= 0.46094
+Step 700, Minibatch Loss= 0.690540, Training Accuracy= 0.55469
+Step 800, Minibatch Loss= 0.708432, Training Accuracy= 0.52344
+Step 900, Minibatch Loss= 0.681627, Training Accuracy= 0.57812
+Step 1000, Minibatch Loss= 0.696077, Training Accuracy= 0.50781
+Step 1100, Minibatch Loss= 0.702447, Training Accuracy= 0.48438
+Step 1200, Minibatch Loss= 0.689629, Training Accuracy= 0.57812
+Step 1300, Minibatch Loss= 0.694108, Training Accuracy= 0.47656
+Step 1400, Minibatch Loss= 0.695470, Training Accuracy= 0.54688
+Step 1500, Minibatch Loss= 0.693491, Training Accuracy= 0.48438
+Optimization Finished!
+Testing Accuracy: 0.4908
+
+Model: 3 : seq len = 50, num_hidden = 5, replication: 7
+
+Step 1, Minibatch Loss= 0.714364, Training Accuracy= 0.58594
+Step 100, Minibatch Loss= 0.700474, Training Accuracy= 0.43750
+Step 200, Minibatch Loss= 0.700965, Training Accuracy= 0.45312
+Step 300, Minibatch Loss= 0.691036, Training Accuracy= 0.53906
+Step 400, Minibatch Loss= 0.731847, Training Accuracy= 0.56250
+Step 500, Minibatch Loss= 0.695625, Training Accuracy= 0.50781
+Step 600, Minibatch Loss= 0.693374, Training Accuracy= 0.51562
+Step 700, Minibatch Loss= 0.693697, Training Accuracy= 0.50781
+Step 800, Minibatch Loss= 0.731831, Training Accuracy= 0.51562
+Step 900, Minibatch Loss= 0.686227, Training Accuracy= 0.55469
+Step 1000, Minibatch Loss= 0.687803, Training Accuracy= 0.54688
+Step 1100, Minibatch Loss= 0.691277, Training Accuracy= 0.53125
+Step 1200, Minibatch Loss= 0.726688, Training Accuracy= 0.45312
+Step 1300, Minibatch Loss= 0.701994, Training Accuracy= 0.47656
+Step 1400, Minibatch Loss= 0.692639, Training Accuracy= 0.50000
+Step 1500, Minibatch Loss= 0.694487, Training Accuracy= 0.50000
+Optimization Finished!
+Testing Accuracy: 0.506
+
+Model: 3 : seq len = 50, num_hidden = 5, replication: 8
+
+Step 1, Minibatch Loss= 0.815472, Training Accuracy= 0.58594
+Step 100, Minibatch Loss= 0.698366, Training Accuracy= 0.46094
+Step 200, Minibatch Loss= 0.691246, Training Accuracy= 0.53125
+Step 300, Minibatch Loss= 0.725568, Training Accuracy= 0.43750
+Step 400, Minibatch Loss= 0.693084, Training Accuracy= 0.51562
+Step 500, Minibatch Loss= 0.744326, Training Accuracy= 0.46875
+Step 600, Minibatch Loss= 0.695727, Training Accuracy= 0.50000
+Step 700, Minibatch Loss= 0.690293, Training Accuracy= 0.53906
+Step 800, Minibatch Loss= 0.688726, Training Accuracy= 0.56250
+Step 900, Minibatch Loss= 0.719674, Training Accuracy= 0.49219
+Step 1000, Minibatch Loss= 0.692812, Training Accuracy= 0.52344
+Step 1100, Minibatch Loss= 0.693959, Training Accuracy= 0.48438
+Step 1200, Minibatch Loss= 0.713792, Training Accuracy= 0.51562
+Step 1300, Minibatch Loss= 0.696000, Training Accuracy= 0.48438
+Step 1400, Minibatch Loss= 0.694898, Training Accuracy= 0.48438
+Step 1500, Minibatch Loss= 0.693655, Training Accuracy= 0.50000
+Optimization Finished!
+Testing Accuracy: 0.5019
+
+Model: 3 : seq len = 50, num_hidden = 5, replication: 9
+
+Step 1, Minibatch Loss= 0.696818, Training Accuracy= 0.50781
+Step 100, Minibatch Loss= 0.700641, Training Accuracy= 0.50000
+Step 200, Minibatch Loss= 0.692230, Training Accuracy= 0.52344
+Step 300, Minibatch Loss= 0.689105, Training Accuracy= 0.55469
+Step 400, Minibatch Loss= 0.707814, Training Accuracy= 0.50781
+Step 500, Minibatch Loss= 0.687529, Training Accuracy= 0.55469
+Step 600, Minibatch Loss= 0.709672, Training Accuracy= 0.48438
+Step 700, Minibatch Loss= 0.698207, Training Accuracy= 0.44531
+Step 800, Minibatch Loss= 0.707071, Training Accuracy= 0.50000
+Step 900, Minibatch Loss= 0.687469, Training Accuracy= 0.60156
+Step 1000, Minibatch Loss= 0.723289, Training Accuracy= 0.48438
+Step 1100, Minibatch Loss= 0.722776, Training Accuracy= 0.43750
+Step 1200, Minibatch Loss= 0.701814, Training Accuracy= 0.50781
+Step 1300, Minibatch Loss= 0.693908, Training Accuracy= 0.50000
+Step 1400, Minibatch Loss= 0.718751, Training Accuracy= 0.42969
+Step 1500, Minibatch Loss= 0.702059, Training Accuracy= 0.50781
+Optimization Finished!
+Testing Accuracy: 0.5035
+
+Model: 4 : seq len = 2, num_hidden = 25, replication: 0
+
+Step 1, Minibatch Loss= 1.922240, Training Accuracy= 0.57031
+Step 100, Minibatch Loss= 0.000537, Training Accuracy= 1.00000
+Step 200, Minibatch Loss= 0.000163, Training Accuracy= 1.00000
+Step 300, Minibatch Loss= 0.000134, Training Accuracy= 1.00000
+Step 400, Minibatch Loss= 0.000111, Training Accuracy= 1.00000
+Step 500, Minibatch Loss= 0.000095, Training Accuracy= 1.00000
+Step 600, Minibatch Loss= 0.000085, Training Accuracy= 1.00000
+Step 700, Minibatch Loss= 0.000072, Training Accuracy= 1.00000
+Step 800, Minibatch Loss= 0.000064, Training Accuracy= 1.00000
+Step 900, Minibatch Loss= 0.000060, Training Accuracy= 1.00000
+Step 1000, Minibatch Loss= 0.000054, Training Accuracy= 1.00000
+Step 1100, Minibatch Loss= 0.000049, Training Accuracy= 1.00000
+Step 1200, Minibatch Loss= 0.000046, Training Accuracy= 1.00000
+Step 1300, Minibatch Loss= 0.000043, Training Accuracy= 1.00000
+Step 1400, Minibatch Loss= 0.000040, Training Accuracy= 1.00000
+Step 1500, Minibatch Loss= 0.000037, Training Accuracy= 1.00000
+Optimization Finished!
+Testing Accuracy: 1.0
+
+Model: 4 : seq len = 2, num_hidden = 25, replication: 1
+
+Step 1, Minibatch Loss= 1.053794, Training Accuracy= 0.50000
+Step 100, Minibatch Loss= 0.000070, Training Accuracy= 1.00000
+Step 200, Minibatch Loss= 0.000045, Training Accuracy= 1.00000
+Step 300, Minibatch Loss= 0.000037, Training Accuracy= 1.00000
+Step 400, Minibatch Loss= 0.000032, Training Accuracy= 1.00000
+Step 500, Minibatch Loss= 0.000028, Training Accuracy= 1.00000
+Step 600, Minibatch Loss= 0.000027, Training Accuracy= 1.00000
+Step 700, Minibatch Loss= 0.000025, Training Accuracy= 1.00000
+Step 800, Minibatch Loss= 0.000023, Training Accuracy= 1.00000
+Step 900, Minibatch Loss= 0.000021, Training Accuracy= 1.00000
+Step 1000, Minibatch Loss= 0.000020, Training Accuracy= 1.00000
+Step 1100, Minibatch Loss= 0.000019, Training Accuracy= 1.00000
+Step 1200, Minibatch Loss= 0.000017, Training Accuracy= 1.00000
+Step 1300, Minibatch Loss= 0.000017, Training Accuracy= 1.00000
+Step 1400, Minibatch Loss= 0.000016, Training Accuracy= 1.00000
+Step 1500, Minibatch Loss= 0.000015, Training Accuracy= 1.00000
+Optimization Finished!
+Testing Accuracy: 1.0
+
+Model: 4 : seq len = 2, num_hidden = 25, replication: 2
+
+Step 1, Minibatch Loss= 1.244273, Training Accuracy= 0.47656
+Step 100, Minibatch Loss= 0.000117, Training Accuracy= 1.00000
+Step 200, Minibatch Loss= 0.000070, Training Accuracy= 1.00000
+Step 300, Minibatch Loss= 0.000063, Training Accuracy= 1.00000
+Step 400, Minibatch Loss= 0.000054, Training Accuracy= 1.00000
+Step 500, Minibatch Loss= 0.000045, Training Accuracy= 1.00000
+Step 600, Minibatch Loss= 0.000044, Training Accuracy= 1.00000
+Step 700, Minibatch Loss= 0.000039, Training Accuracy= 1.00000
+Step 800, Minibatch Loss= 0.000036, Training Accuracy= 1.00000
+Step 900, Minibatch Loss= 0.000034, Training Accuracy= 1.00000
+Step 1000, Minibatch Loss= 0.000032, Training Accuracy= 1.00000
+Step 1100, Minibatch Loss= 0.000030, Training Accuracy= 1.00000
+Step 1200, Minibatch Loss= 0.000026, Training Accuracy= 1.00000
+Step 1300, Minibatch Loss= 0.000026, Training Accuracy= 1.00000
+Step 1400, Minibatch Loss= 0.000024, Training Accuracy= 1.00000
+Step 1500, Minibatch Loss= 0.000023, Training Accuracy= 1.00000
+Optimization Finished!
+Testing Accuracy: 1.0
+
+Model: 4 : seq len = 2, num_hidden = 25, replication: 3
+
+Step 1, Minibatch Loss= 1.415105, Training Accuracy= 0.47656
+Step 100, Minibatch Loss= 0.000096, Training Accuracy= 1.00000
+Step 200, Minibatch Loss= 0.000048, Training Accuracy= 1.00000
+Step 300, Minibatch Loss= 0.000036, Training Accuracy= 1.00000
+Step 400, Minibatch Loss= 0.000033, Training Accuracy= 1.00000
+Step 500, Minibatch Loss= 0.000026, Training Accuracy= 1.00000
+Step 600, Minibatch Loss= 0.000023, Training Accuracy= 1.00000
+Step 700, Minibatch Loss= 0.000021, Training Accuracy= 1.00000
+Step 800, Minibatch Loss= 0.000019, Training Accuracy= 1.00000
+Step 900, Minibatch Loss= 0.000019, Training Accuracy= 1.00000
+Step 1000, Minibatch Loss= 0.000018, Training Accuracy= 1.00000
+Step 1100, Minibatch Loss= 0.000016, Training Accuracy= 1.00000
+Step 1200, Minibatch Loss= 0.000016, Training Accuracy= 1.00000
+Step 1300, Minibatch Loss= 0.000016, Training Accuracy= 1.00000
+Step 1400, Minibatch Loss= 0.000015, Training Accuracy= 1.00000
+Step 1500, Minibatch Loss= 0.000014, Training Accuracy= 1.00000
+Optimization Finished!
+Testing Accuracy: 1.0
+
+Model: 4 : seq len = 2, num_hidden = 25, replication: 4
+
+Step 1, Minibatch Loss= 1.301058, Training Accuracy= 0.49219
+Step 100, Minibatch Loss= 0.000128, Training Accuracy= 1.00000
+Step 200, Minibatch Loss= 0.000093, Training Accuracy= 1.00000
+Step 300, Minibatch Loss= 0.000071, Training Accuracy= 1.00000
+Step 400, Minibatch Loss= 0.000063, Training Accuracy= 1.00000
+Step 500, Minibatch Loss= 0.000051, Training Accuracy= 1.00000
+Step 600, Minibatch Loss= 0.000047, Training Accuracy= 1.00000
+Step 700, Minibatch Loss= 0.000039, Training Accuracy= 1.00000
+Step 800, Minibatch Loss= 0.000036, Training Accuracy= 1.00000
+Step 900, Minibatch Loss= 0.000031, Training Accuracy= 1.00000
+Step 1000, Minibatch Loss= 0.000032, Training Accuracy= 1.00000
+Step 1100, Minibatch Loss= 0.000029, Training Accuracy= 1.00000
+Step 1200, Minibatch Loss= 0.000029, Training Accuracy= 1.00000
+Step 1300, Minibatch Loss= 0.000027, Training Accuracy= 1.00000
+Step 1400, Minibatch Loss= 0.000026, Training Accuracy= 1.00000
+Step 1500, Minibatch Loss= 0.000024, Training Accuracy= 1.00000
+Optimization Finished!
+Testing Accuracy: 1.0
+
+Model: 4 : seq len = 2, num_hidden = 25, replication: 5
+
+Step 1, Minibatch Loss= 1.109871, Training Accuracy= 0.54688
+Step 100, Minibatch Loss= 0.000343, Training Accuracy= 1.00000
+Step 200, Minibatch Loss= 0.000073, Training Accuracy= 1.00000
+Step 300, Minibatch Loss= 0.000070, Training Accuracy= 1.00000
+Step 400, Minibatch Loss= 0.000043, Training Accuracy= 1.00000
+Step 500, Minibatch Loss= 0.000045, Training Accuracy= 1.00000
+Step 600, Minibatch Loss= 0.000046, Training Accuracy= 1.00000
+Step 700, Minibatch Loss= 0.000035, Training Accuracy= 1.00000
+Step 800, Minibatch Loss= 0.000034, Training Accuracy= 1.00000
+Step 900, Minibatch Loss= 0.000030, Training Accuracy= 1.00000
+Step 1000, Minibatch Loss= 0.000029, Training Accuracy= 1.00000
+Step 1100, Minibatch Loss= 0.000028, Training Accuracy= 1.00000
+Step 1200, Minibatch Loss= 0.000027, Training Accuracy= 1.00000
+Step 1300, Minibatch Loss= 0.000025, Training Accuracy= 1.00000
+Step 1400, Minibatch Loss= 0.000024, Training Accuracy= 1.00000
+Step 1500, Minibatch Loss= 0.000023, Training Accuracy= 1.00000
+Optimization Finished!
+Testing Accuracy: 1.0
+
+Model: 4 : seq len = 2, num_hidden = 25, replication: 6
+
+Step 1, Minibatch Loss= 1.452983, Training Accuracy= 0.45312
+Step 100, Minibatch Loss= 0.000076, Training Accuracy= 1.00000
+Step 200, Minibatch Loss= 0.000044, Training Accuracy= 1.00000
+Step 300, Minibatch Loss= 0.000035, Training Accuracy= 1.00000
+Step 400, Minibatch Loss= 0.000030, Training Accuracy= 1.00000
+Step 500, Minibatch Loss= 0.000025, Training Accuracy= 1.00000
+Step 600, Minibatch Loss= 0.000021, Training Accuracy= 1.00000
+Step 700, Minibatch Loss= 0.000020, Training Accuracy= 1.00000
+Step 800, Minibatch Loss= 0.000018, Training Accuracy= 1.00000
+Step 900, Minibatch Loss= 0.000016, Training Accuracy= 1.00000
+Step 1000, Minibatch Loss= 0.000015, Training Accuracy= 1.00000
+Step 1100, Minibatch Loss= 0.000014, Training Accuracy= 1.00000
+Step 1200, Minibatch Loss= 0.000013, Training Accuracy= 1.00000
+Step 1300, Minibatch Loss= 0.000012, Training Accuracy= 1.00000
+Step 1400, Minibatch Loss= 0.000013, Training Accuracy= 1.00000
+Step 1500, Minibatch Loss= 0.000012, Training Accuracy= 1.00000
+Optimization Finished!
+Testing Accuracy: 1.0
+
+Model: 4 : seq len = 2, num_hidden = 25, replication: 7
+
+Step 1, Minibatch Loss= 1.346699, Training Accuracy= 0.46875
+Step 100, Minibatch Loss= 0.000131, Training Accuracy= 1.00000
+Step 200, Minibatch Loss= 0.000057, Training Accuracy= 1.00000
+Step 300, Minibatch Loss= 0.000045, Training Accuracy= 1.00000
+Step 400, Minibatch Loss= 0.000035, Training Accuracy= 1.00000
+Step 500, Minibatch Loss= 0.000033, Training Accuracy= 1.00000
+Step 600, Minibatch Loss= 0.000032, Training Accuracy= 1.00000
+Step 700, Minibatch Loss= 0.000029, Training Accuracy= 1.00000
+Step 800, Minibatch Loss= 0.000025, Training Accuracy= 1.00000
+Step 900, Minibatch Loss= 0.000024, Training Accuracy= 1.00000
+Step 1000, Minibatch Loss= 0.000024, Training Accuracy= 1.00000
+Step 1100, Minibatch Loss= 0.000021, Training Accuracy= 1.00000
+Step 1200, Minibatch Loss= 0.000019, Training Accuracy= 1.00000
+Step 1300, Minibatch Loss= 0.000020, Training Accuracy= 1.00000
+Step 1400, Minibatch Loss= 0.000018, Training Accuracy= 1.00000
+Step 1500, Minibatch Loss= 0.000016, Training Accuracy= 1.00000
+Optimization Finished!
+Testing Accuracy: 1.0
+
+Model: 4 : seq len = 2, num_hidden = 25, replication: 8
+
+Step 1, Minibatch Loss= 0.990031, Training Accuracy= 0.49219
+Step 100, Minibatch Loss= 0.000274, Training Accuracy= 1.00000
+Step 200, Minibatch Loss= 0.000150, Training Accuracy= 1.00000
+Step 300, Minibatch Loss= 0.000110, Training Accuracy= 1.00000
+Step 400, Minibatch Loss= 0.000090, Training Accuracy= 1.00000
+Step 500, Minibatch Loss= 0.000076, Training Accuracy= 1.00000
+Step 600, Minibatch Loss= 0.000074, Training Accuracy= 1.00000
+Step 700, Minibatch Loss= 0.000060, Training Accuracy= 1.00000
+Step 800, Minibatch Loss= 0.000056, Training Accuracy= 1.00000
+Step 900, Minibatch Loss= 0.000051, Training Accuracy= 1.00000
+Step 1000, Minibatch Loss= 0.000045, Training Accuracy= 1.00000
+Step 1100, Minibatch Loss= 0.000044, Training Accuracy= 1.00000
+Step 1200, Minibatch Loss= 0.000040, Training Accuracy= 1.00000
+Step 1300, Minibatch Loss= 0.000039, Training Accuracy= 1.00000
+Step 1400, Minibatch Loss= 0.000034, Training Accuracy= 1.00000
+Step 1500, Minibatch Loss= 0.000034, Training Accuracy= 1.00000
+Optimization Finished!
+Testing Accuracy: 1.0
+
+Model: 4 : seq len = 2, num_hidden = 25, replication: 9
+
+Step 1, Minibatch Loss= 1.305341, Training Accuracy= 0.57031
+Step 100, Minibatch Loss= 0.000267, Training Accuracy= 1.00000
+Step 200, Minibatch Loss= 0.000102, Training Accuracy= 1.00000
+Step 300, Minibatch Loss= 0.000069, Training Accuracy= 1.00000
+Step 400, Minibatch Loss= 0.000060, Training Accuracy= 1.00000
+Step 500, Minibatch Loss= 0.000056, Training Accuracy= 1.00000
+Step 600, Minibatch Loss= 0.000052, Training Accuracy= 1.00000
+Step 700, Minibatch Loss= 0.000048, Training Accuracy= 1.00000
+Step 800, Minibatch Loss= 0.000044, Training Accuracy= 1.00000
+Step 900, Minibatch Loss= 0.000037, Training Accuracy= 1.00000
+Step 1000, Minibatch Loss= 0.000036, Training Accuracy= 1.00000
+Step 1100, Minibatch Loss= 0.000035, Training Accuracy= 1.00000
+Step 1200, Minibatch Loss= 0.000034, Training Accuracy= 1.00000
+Step 1300, Minibatch Loss= 0.000032, Training Accuracy= 1.00000
+Step 1400, Minibatch Loss= 0.000030, Training Accuracy= 1.00000
+Step 1500, Minibatch Loss= 0.000028, Training Accuracy= 1.00000
+Optimization Finished!
+Testing Accuracy: 1.0
+
+Model: 5 : seq len = 10, num_hidden = 25, replication: 0
+
+Step 1, Minibatch Loss= 1.287648, Training Accuracy= 0.49219
+Step 100, Minibatch Loss= 0.690522, Training Accuracy= 0.54688
+Step 200, Minibatch Loss= 0.698169, Training Accuracy= 0.52344
+Step 300, Minibatch Loss= 0.693400, Training Accuracy= 0.50781
+Step 400, Minibatch Loss= 0.726735, Training Accuracy= 0.50781
+Step 500, Minibatch Loss= 0.695646, Training Accuracy= 0.50000
+Step 600, Minibatch Loss= 0.689307, Training Accuracy= 0.55469
+Step 700, Minibatch Loss= 0.686641, Training Accuracy= 0.57031
+Step 800, Minibatch Loss= 0.726512, Training Accuracy= 0.51562
+Step 900, Minibatch Loss= 0.699287, Training Accuracy= 0.46875
+Step 1000, Minibatch Loss= 0.719753, Training Accuracy= 0.40625
+Step 1100, Minibatch Loss= 0.691327, Training Accuracy= 0.52344
+Step 1200, Minibatch Loss= 0.698710, Training Accuracy= 0.53906
+Step 1300, Minibatch Loss= 0.703470, Training Accuracy= 0.45312
+Step 1400, Minibatch Loss= 0.692336, Training Accuracy= 0.57812
+Step 1500, Minibatch Loss= 0.691562, Training Accuracy= 0.53125
+Optimization Finished!
+Testing Accuracy: 0.4984
+
+Model: 5 : seq len = 10, num_hidden = 25, replication: 1
+
+Step 1, Minibatch Loss= 3.000304, Training Accuracy= 0.54688
+Step 100, Minibatch Loss= 0.692063, Training Accuracy= 0.52344
+Step 200, Minibatch Loss= 0.684682, Training Accuracy= 0.58594
+Step 300, Minibatch Loss= 0.691622, Training Accuracy= 0.52344
+Step 400, Minibatch Loss= 0.686463, Training Accuracy= 0.57031
+Step 500, Minibatch Loss= 0.707464, Training Accuracy= 0.53125
+Step 600, Minibatch Loss= 0.687373, Training Accuracy= 0.55469
+Step 700, Minibatch Loss= 0.693307, Training Accuracy= 0.49219
+Step 800, Minibatch Loss= 0.691183, Training Accuracy= 0.51562
+Step 900, Minibatch Loss= 0.691861, Training Accuracy= 0.53125
+Step 1000, Minibatch Loss= 0.693263, Training Accuracy= 0.53125
+Step 1100, Minibatch Loss= 0.690763, Training Accuracy= 0.53906
+Step 1200, Minibatch Loss= 0.694202, Training Accuracy= 0.45312
+Step 1300, Minibatch Loss= 0.695986, Training Accuracy= 0.46094
+Step 1400, Minibatch Loss= 0.695251, Training Accuracy= 0.50000
+Step 1500, Minibatch Loss= 0.690354, Training Accuracy= 0.53125
+Optimization Finished!
+Testing Accuracy: 0.5045
+
+Model: 5 : seq len = 10, num_hidden = 25, replication: 2
+
+Step 1, Minibatch Loss= 2.020522, Training Accuracy= 0.55469
+Step 100, Minibatch Loss= 0.710997, Training Accuracy= 0.53125
+Step 200, Minibatch Loss= 0.703336, Training Accuracy= 0.48438
+Step 300, Minibatch Loss= 0.686980, Training Accuracy= 0.56250
+Step 400, Minibatch Loss= 0.708148, Training Accuracy= 0.48438
+Step 500, Minibatch Loss= 0.718067, Training Accuracy= 0.41406
+Step 600, Minibatch Loss= 0.695201, Training Accuracy= 0.50781
+Step 700, Minibatch Loss= 0.716676, Training Accuracy= 0.50000
+Step 800, Minibatch Loss= 0.682032, Training Accuracy= 0.57812
+Step 900, Minibatch Loss= 0.694339, Training Accuracy= 0.48438
+Step 1000, Minibatch Loss= 0.694037, Training Accuracy= 0.46875
+Step 1100, Minibatch Loss= 0.715616, Training Accuracy= 0.47656
+Step 1200, Minibatch Loss= 0.716123, Training Accuracy= 0.44531
+Step 1300, Minibatch Loss= 0.692043, Training Accuracy= 0.52344
+Step 1400, Minibatch Loss= 0.695984, Training Accuracy= 0.50781
+Step 1500, Minibatch Loss= 0.692094, Training Accuracy= 0.56250
+Optimization Finished!
+Testing Accuracy: 0.4914
+
+Model: 5 : seq len = 10, num_hidden = 25, replication: 3
+
+Step 1, Minibatch Loss= 2.145135, Training Accuracy= 0.49219
+Step 100, Minibatch Loss= 0.695457, Training Accuracy= 0.48438
+Step 200, Minibatch Loss= 0.697367, Training Accuracy= 0.50000
+Step 300, Minibatch Loss= 0.710752, Training Accuracy= 0.46875
+Step 400, Minibatch Loss= 0.693070, Training Accuracy= 0.50000
+Step 500, Minibatch Loss= 0.685490, Training Accuracy= 0.56250
+Step 600, Minibatch Loss= 0.697086, Training Accuracy= 0.44531
+Step 700, Minibatch Loss= 0.695118, Training Accuracy= 0.46875
+Step 800, Minibatch Loss= 0.711049, Training Accuracy= 0.45312
+Step 900, Minibatch Loss= 0.708384, Training Accuracy= 0.47656
+Step 1000, Minibatch Loss= 0.699986, Training Accuracy= 0.45312
+Step 1100, Minibatch Loss= 0.710539, Training Accuracy= 0.45312
+Step 1200, Minibatch Loss= 0.627794, Training Accuracy= 0.68750
+Step 1300, Minibatch Loss= 0.705351, Training Accuracy= 0.52344
+Step 1400, Minibatch Loss= 0.693794, Training Accuracy= 0.50781
+Step 1500, Minibatch Loss= 0.736842, Training Accuracy= 0.51562
+Optimization Finished!
+Testing Accuracy: 0.4981
+
+Model: 5 : seq len = 10, num_hidden = 25, replication: 4
+
+Step 1, Minibatch Loss= 3.753170, Training Accuracy= 0.46094
+Step 100, Minibatch Loss= 0.694198, Training Accuracy= 0.47656
+Step 200, Minibatch Loss= 0.703044, Training Accuracy= 0.47656
+Step 300, Minibatch Loss= 0.691713, Training Accuracy= 0.55469
+Step 400, Minibatch Loss= 0.783264, Training Accuracy= 0.49219
+Step 500, Minibatch Loss= 0.691918, Training Accuracy= 0.52344
+Step 600, Minibatch Loss= 0.703877, Training Accuracy= 0.53125
+Step 700, Minibatch Loss= 0.698759, Training Accuracy= 0.51562
+Step 800, Minibatch Loss= 0.693514, Training Accuracy= 0.48438
+Step 900, Minibatch Loss= 0.691632, Training Accuracy= 0.52344
+Step 1000, Minibatch Loss= 0.684111, Training Accuracy= 0.58594
+Step 1100, Minibatch Loss= 0.688402, Training Accuracy= 0.55469
+Step 1200, Minibatch Loss= 0.688515, Training Accuracy= 0.55469
+Step 1300, Minibatch Loss= 0.705738, Training Accuracy= 0.46875
+Step 1400, Minibatch Loss= 0.725230, Training Accuracy= 0.43750
+Step 1500, Minibatch Loss= 0.703219, Training Accuracy= 0.58594
+Optimization Finished!
+Testing Accuracy: 0.5082
+
+Model: 5 : seq len = 10, num_hidden = 25, replication: 5
+
+Step 1, Minibatch Loss= 2.498555, Training Accuracy= 0.46875
+Step 100, Minibatch Loss= 0.698025, Training Accuracy= 0.49219
+Step 200, Minibatch Loss= 0.690550, Training Accuracy= 0.57031
+Step 300, Minibatch Loss= 0.700480, Training Accuracy= 0.45312
+Step 400, Minibatch Loss= 0.745983, Training Accuracy= 0.51562
+Step 500, Minibatch Loss= 0.718485, Training Accuracy= 0.47656
+Step 600, Minibatch Loss= 0.705533, Training Accuracy= 0.50000
+Step 700, Minibatch Loss= 0.703406, Training Accuracy= 0.43750
+Step 800, Minibatch Loss= 0.729132, Training Accuracy= 0.46094
+Step 900, Minibatch Loss= 0.702314, Training Accuracy= 0.49219
+Step 1000, Minibatch Loss= 0.735678, Training Accuracy= 0.49219
+Step 1100, Minibatch Loss= 0.690356, Training Accuracy= 0.53906
+Step 1200, Minibatch Loss= 0.692959, Training Accuracy= 0.52344
+Step 1300, Minibatch Loss= 0.685850, Training Accuracy= 0.56250
+Step 1400, Minibatch Loss= 0.696092, Training Accuracy= 0.53906
+Step 1500, Minibatch Loss= 0.714927, Training Accuracy= 0.49219
+Optimization Finished!
+Testing Accuracy: 0.4975
+
+Model: 5 : seq len = 10, num_hidden = 25, replication: 6
+
+Step 1, Minibatch Loss= 4.283013, Training Accuracy= 0.53906
+Step 100, Minibatch Loss= 0.748875, Training Accuracy= 0.46094
+Step 200, Minibatch Loss= 0.702670, Training Accuracy= 0.45312
+Step 300, Minibatch Loss= 0.693747, Training Accuracy= 0.49219
+Step 400, Minibatch Loss= 0.715747, Training Accuracy= 0.45312
+Step 500, Minibatch Loss= 0.679634, Training Accuracy= 0.58594
+Step 600, Minibatch Loss= 0.701961, Training Accuracy= 0.50781
+Step 700, Minibatch Loss= 0.692740, Training Accuracy= 0.52344
+Step 800, Minibatch Loss= 0.748525, Training Accuracy= 0.46094
+Step 900, Minibatch Loss= 0.727358, Training Accuracy= 0.50781
+Step 1000, Minibatch Loss= 0.696837, Training Accuracy= 0.43750
+Step 1100, Minibatch Loss= 0.719133, Training Accuracy= 0.42188
+Step 1200, Minibatch Loss= 0.697621, Training Accuracy= 0.53125
+Step 1300, Minibatch Loss= 0.716784, Training Accuracy= 0.47656
+Step 1400, Minibatch Loss= 0.692485, Training Accuracy= 0.50000
+Step 1500, Minibatch Loss= 0.710960, Training Accuracy= 0.50000
+Optimization Finished!
+Testing Accuracy: 0.4993
+
+Model: 5 : seq len = 10, num_hidden = 25, replication: 7
+
+Step 1, Minibatch Loss= 2.739550, Training Accuracy= 0.47656
+Step 100, Minibatch Loss= 0.711706, Training Accuracy= 0.49219
+Step 200, Minibatch Loss= 0.720268, Training Accuracy= 0.49219
+Step 300, Minibatch Loss= 0.698664, Training Accuracy= 0.45312
+Step 400, Minibatch Loss= 0.718517, Training Accuracy= 0.50000
+Step 500, Minibatch Loss= 0.693934, Training Accuracy= 0.48438
+Step 600, Minibatch Loss= 0.694942, Training Accuracy= 0.56250
+Step 700, Minibatch Loss= 0.687892, Training Accuracy= 0.55469
+Step 800, Minibatch Loss= 0.726903, Training Accuracy= 0.43750
+Step 900, Minibatch Loss= 0.692838, Training Accuracy= 0.55469
+Step 1000, Minibatch Loss= 0.706351, Training Accuracy= 0.51562
+Step 1100, Minibatch Loss= 0.695875, Training Accuracy= 0.48438
+Step 1200, Minibatch Loss= 0.688995, Training Accuracy= 0.53125
+Step 1300, Minibatch Loss= 0.701474, Training Accuracy= 0.50781
+Step 1400, Minibatch Loss= 0.691727, Training Accuracy= 0.57031
+Step 1500, Minibatch Loss= 0.703351, Training Accuracy= 0.46875
+Optimization Finished!
+Testing Accuracy: 0.4992
+
+Model: 5 : seq len = 10, num_hidden = 25, replication: 8
+
+Step 1, Minibatch Loss= 2.798819, Training Accuracy= 0.56250
+Step 100, Minibatch Loss= 0.713980, Training Accuracy= 0.46094
+Step 200, Minibatch Loss= 0.694741, Training Accuracy= 0.50781
+Step 300, Minibatch Loss= 0.699509, Training Accuracy= 0.49219
+Step 400, Minibatch Loss= 0.737354, Training Accuracy= 0.45312
+Step 500, Minibatch Loss= 0.694947, Training Accuracy= 0.50000
+Step 600, Minibatch Loss= 0.693745, Training Accuracy= 0.49219
+Step 700, Minibatch Loss= 0.692867, Training Accuracy= 0.52344
+Step 800, Minibatch Loss= 0.693056, Training Accuracy= 0.52344
+Step 900, Minibatch Loss= 0.717035, Training Accuracy= 0.46875
+Step 1000, Minibatch Loss= 0.690623, Training Accuracy= 0.54688
+Step 1100, Minibatch Loss= 0.689830, Training Accuracy= 0.53125
+Step 1200, Minibatch Loss= 0.695709, Training Accuracy= 0.39062
+Step 1300, Minibatch Loss= 0.694477, Training Accuracy= 0.50000
+Step 1400, Minibatch Loss= 0.696427, Training Accuracy= 0.52344
+Step 1500, Minibatch Loss= 0.680349, Training Accuracy= 0.57812
+Optimization Finished!
+Testing Accuracy: 0.5118
+
+Model: 5 : seq len = 10, num_hidden = 25, replication: 9
+
+Step 1, Minibatch Loss= 2.555548, Training Accuracy= 0.63281
+Step 100, Minibatch Loss= 0.701755, Training Accuracy= 0.49219
+Step 200, Minibatch Loss= 0.695934, Training Accuracy= 0.51562
+Step 300, Minibatch Loss= 0.691441, Training Accuracy= 0.52344
+Step 400, Minibatch Loss= 0.692796, Training Accuracy= 0.53125
+Step 500, Minibatch Loss= 0.695153, Training Accuracy= 0.42188
+Step 600, Minibatch Loss= 0.692313, Training Accuracy= 0.51562
+Step 700, Minibatch Loss= 0.687979, Training Accuracy= 0.55469
+Step 800, Minibatch Loss= 0.692322, Training Accuracy= 0.54688
+Step 900, Minibatch Loss= 0.691145, Training Accuracy= 0.53906
+Step 1000, Minibatch Loss= 0.693616, Training Accuracy= 0.53125
+Step 1100, Minibatch Loss= 0.694124, Training Accuracy= 0.50781
+Step 1200, Minibatch Loss= 0.706163, Training Accuracy= 0.46094
+Step 1300, Minibatch Loss= 0.704751, Training Accuracy= 0.51562
+Step 1400, Minibatch Loss= 0.692871, Training Accuracy= 0.53125
+Step 1500, Minibatch Loss= 0.728050, Training Accuracy= 0.48438
+Optimization Finished!
+Testing Accuracy: 0.4927
+
+Model: 6 : seq len = 25, num_hidden = 25, replication: 0
+
+Step 1, Minibatch Loss= 2.269855, Training Accuracy= 0.48438
+Step 100, Minibatch Loss= 0.701762, Training Accuracy= 0.49219
+Step 200, Minibatch Loss= 0.712646, Training Accuracy= 0.53125
+Step 300, Minibatch Loss= 0.692611, Training Accuracy= 0.46875
+Step 400, Minibatch Loss= 0.715824, Training Accuracy= 0.48438
+Step 500, Minibatch Loss= 0.700188, Training Accuracy= 0.49219
+Step 600, Minibatch Loss= 0.694336, Training Accuracy= 0.49219
+Step 700, Minibatch Loss= 0.694629, Training Accuracy= 0.53125
+Step 800, Minibatch Loss= 0.689681, Training Accuracy= 0.54688
+Step 900, Minibatch Loss= 0.698715, Training Accuracy= 0.50781
+Step 1000, Minibatch Loss= 0.693026, Training Accuracy= 0.49219
+Step 1100, Minibatch Loss= 0.696016, Training Accuracy= 0.49219
+Step 1200, Minibatch Loss= 0.706216, Training Accuracy= 0.48438
+Step 1300, Minibatch Loss= 0.718719, Training Accuracy= 0.47656
+Step 1400, Minibatch Loss= 0.698439, Training Accuracy= 0.49219
+Step 1500, Minibatch Loss= 0.696847, Training Accuracy= 0.49219
+Optimization Finished!
+Testing Accuracy: 0.4963
+
+Model: 6 : seq len = 25, num_hidden = 25, replication: 1
+
+Step 1, Minibatch Loss= 1.704862, Training Accuracy= 0.53906
+Step 100, Minibatch Loss= 0.727642, Training Accuracy= 0.47656
+Step 200, Minibatch Loss= 0.676198, Training Accuracy= 0.57812
+Step 300, Minibatch Loss= 0.695032, Training Accuracy= 0.49219
+Step 400, Minibatch Loss= 0.696294, Training Accuracy= 0.48438
+Step 500, Minibatch Loss= 0.695998, Training Accuracy= 0.49219
+Step 600, Minibatch Loss= 0.681301, Training Accuracy= 0.55469
+Step 700, Minibatch Loss= 0.693162, Training Accuracy= 0.54688
+Step 800, Minibatch Loss= 0.704242, Training Accuracy= 0.47656
+Step 900, Minibatch Loss= 0.694434, Training Accuracy= 0.46094
+Step 1000, Minibatch Loss= 0.690879, Training Accuracy= 0.55469
+Step 1100, Minibatch Loss= 0.704642, Training Accuracy= 0.52344
+Step 1200, Minibatch Loss= 0.691838, Training Accuracy= 0.55469
+Step 1300, Minibatch Loss= 0.705346, Training Accuracy= 0.40625
+Step 1400, Minibatch Loss= 0.698738, Training Accuracy= 0.45312
+Step 1500, Minibatch Loss= 0.691873, Training Accuracy= 0.53125
+Optimization Finished!
+Testing Accuracy: 0.4948
+
+Model: 6 : seq len = 25, num_hidden = 25, replication: 2
+
+Step 1, Minibatch Loss= 1.960213, Training Accuracy= 0.49219
+Step 100, Minibatch Loss= 0.691107, Training Accuracy= 0.53125
+Step 200, Minibatch Loss= 0.728322, Training Accuracy= 0.45312
+Step 300, Minibatch Loss= 0.695048, Training Accuracy= 0.49219
+Step 400, Minibatch Loss= 0.700338, Training Accuracy= 0.51562
+Step 500, Minibatch Loss= 0.695835, Training Accuracy= 0.44531
+Step 600, Minibatch Loss= 0.692666, Training Accuracy= 0.51562
+Step 700, Minibatch Loss= 0.688881, Training Accuracy= 0.54688
+Step 800, Minibatch Loss= 0.696326, Training Accuracy= 0.50000
+Step 900, Minibatch Loss= 0.717142, Training Accuracy= 0.51562
+Step 1000, Minibatch Loss= 0.697229, Training Accuracy= 0.51562
+Step 1100, Minibatch Loss= 0.715669, Training Accuracy= 0.48438
+Step 1200, Minibatch Loss= 0.688668, Training Accuracy= 0.54688
+Step 1300, Minibatch Loss= 0.694192, Training Accuracy= 0.49219
+Step 1400, Minibatch Loss= 0.690168, Training Accuracy= 0.54688
+Step 1500, Minibatch Loss= 0.692950, Training Accuracy= 0.51562
+Optimization Finished!
+Testing Accuracy: 0.4867
+
+Model: 6 : seq len = 25, num_hidden = 25, replication: 3
+
+Step 1, Minibatch Loss= 2.971948, Training Accuracy= 0.44531
+Step 100, Minibatch Loss= 0.709392, Training Accuracy= 0.51562
+Step 200, Minibatch Loss= 0.691240, Training Accuracy= 0.53125
+Step 300, Minibatch Loss= 0.708867, Training Accuracy= 0.46094
+Step 400, Minibatch Loss= 0.703644, Training Accuracy= 0.53125
+Step 500, Minibatch Loss= 0.693384, Training Accuracy= 0.50000
+Step 600, Minibatch Loss= 0.691241, Training Accuracy= 0.53125
+Step 700, Minibatch Loss= 0.684304, Training Accuracy= 0.56250
+Step 800, Minibatch Loss= 0.731723, Training Accuracy= 0.48438
+Step 900, Minibatch Loss= 0.695326, Training Accuracy= 0.45312
+Step 1000, Minibatch Loss= 0.694070, Training Accuracy= 0.50000
+Step 1100, Minibatch Loss= 0.688178, Training Accuracy= 0.54688
+Step 1200, Minibatch Loss= 0.696238, Training Accuracy= 0.46875
+Step 1300, Minibatch Loss= 0.697845, Training Accuracy= 0.47656
+Step 1400, Minibatch Loss= 0.690878, Training Accuracy= 0.52344
+Step 1500, Minibatch Loss= 0.708971, Training Accuracy= 0.47656
+Optimization Finished!
+Testing Accuracy: 0.4973
+
+Model: 6 : seq len = 25, num_hidden = 25, replication: 4
+
+Step 1, Minibatch Loss= 4.097746, Training Accuracy= 0.46875
+Step 100, Minibatch Loss= 0.687151, Training Accuracy= 0.56250
+Step 200, Minibatch Loss= 0.691568, Training Accuracy= 0.50781
+Step 300, Minibatch Loss= 0.711565, Training Accuracy= 0.52344
+Step 400, Minibatch Loss= 0.751300, Training Accuracy= 0.47656
+Step 500, Minibatch Loss= 0.700820, Training Accuracy= 0.50781
+Step 600, Minibatch Loss= 0.697257, Training Accuracy= 0.45312
+Step 700, Minibatch Loss= 0.691265, Training Accuracy= 0.56250
+Step 800, Minibatch Loss= 0.729103, Training Accuracy= 0.46094
+Step 900, Minibatch Loss= 0.693918, Training Accuracy= 0.53125
+Step 1000, Minibatch Loss= 0.694587, Training Accuracy= 0.50781
+Step 1100, Minibatch Loss= 0.689265, Training Accuracy= 0.55469
+Step 1200, Minibatch Loss= 0.694444, Training Accuracy= 0.46875
+Step 1300, Minibatch Loss= 0.694668, Training Accuracy= 0.46875
+Step 1400, Minibatch Loss= 0.692741, Training Accuracy= 0.53125
+Step 1500, Minibatch Loss= 0.698347, Training Accuracy= 0.51562
+Optimization Finished!
+Testing Accuracy: 0.4992
+
+Model: 6 : seq len = 25, num_hidden = 25, replication: 5
+
+Step 1, Minibatch Loss= 3.962168, Training Accuracy= 0.57812
+Step 100, Minibatch Loss= 0.705105, Training Accuracy= 0.50781
+Step 200, Minibatch Loss= 0.677329, Training Accuracy= 0.59375
+Step 300, Minibatch Loss= 0.717209, Training Accuracy= 0.48438
+Step 400, Minibatch Loss= 0.734371, Training Accuracy= 0.47656
+Step 500, Minibatch Loss= 0.691633, Training Accuracy= 0.53906
+Step 600, Minibatch Loss= 0.699779, Training Accuracy= 0.50781
+Step 700, Minibatch Loss= 0.725153, Training Accuracy= 0.47656
+Step 800, Minibatch Loss= 0.693550, Training Accuracy= 0.47656
+Step 900, Minibatch Loss= 0.681652, Training Accuracy= 0.60156
+Step 1000, Minibatch Loss= 0.706906, Training Accuracy= 0.51562
+Step 1100, Minibatch Loss= 0.710052, Training Accuracy= 0.50000
+Step 1200, Minibatch Loss= 0.696358, Training Accuracy= 0.46094
+Step 1300, Minibatch Loss= 0.692821, Training Accuracy= 0.53125
+Step 1400, Minibatch Loss= 0.698485, Training Accuracy= 0.49219
+Step 1500, Minibatch Loss= 0.689928, Training Accuracy= 0.53906
+Optimization Finished!
+Testing Accuracy: 0.491
+
+Model: 6 : seq len = 25, num_hidden = 25, replication: 6
+
+Step 1, Minibatch Loss= 3.431952, Training Accuracy= 0.53125
+Step 100, Minibatch Loss= 0.683880, Training Accuracy= 0.59375
+Step 200, Minibatch Loss= 0.690438, Training Accuracy= 0.56250
+Step 300, Minibatch Loss= 0.698386, Training Accuracy= 0.50781
+Step 400, Minibatch Loss= 0.691255, Training Accuracy= 0.54688
+Step 500, Minibatch Loss= 0.691709, Training Accuracy= 0.53906
+Step 600, Minibatch Loss= 0.706895, Training Accuracy= 0.49219
+Step 700, Minibatch Loss= 0.689824, Training Accuracy= 0.57031
+Step 800, Minibatch Loss= 0.693521, Training Accuracy= 0.49219
+Step 900, Minibatch Loss= 0.689709, Training Accuracy= 0.53906
+Step 1000, Minibatch Loss= 0.693186, Training Accuracy= 0.53906
+Step 1100, Minibatch Loss= 0.692755, Training Accuracy= 0.48438
+Step 1200, Minibatch Loss= 0.688979, Training Accuracy= 0.56250
+Step 1300, Minibatch Loss= 0.693790, Training Accuracy= 0.50000
+Step 1400, Minibatch Loss= 0.692736, Training Accuracy= 0.51562
+Step 1500, Minibatch Loss= 0.706379, Training Accuracy= 0.48438
+Optimization Finished!
+Testing Accuracy: 0.5055
+
+Model: 6 : seq len = 25, num_hidden = 25, replication: 7
+
+Step 1, Minibatch Loss= 3.427343, Training Accuracy= 0.49219
+Step 100, Minibatch Loss= 0.688174, Training Accuracy= 0.51562
+Step 200, Minibatch Loss= 0.695141, Training Accuracy= 0.42188
+Step 300, Minibatch Loss= 0.701613, Training Accuracy= 0.49219
+Step 400, Minibatch Loss= 0.744806, Training Accuracy= 0.47656
+Step 500, Minibatch Loss= 0.724971, Training Accuracy= 0.47656
+Step 600, Minibatch Loss= 0.690100, Training Accuracy= 0.60156
+Step 700, Minibatch Loss= 0.697195, Training Accuracy= 0.50781
+Step 800, Minibatch Loss= 0.710679, Training Accuracy= 0.50000
+Step 900, Minibatch Loss= 0.696659, Training Accuracy= 0.48438
+Step 1000, Minibatch Loss= 0.693316, Training Accuracy= 0.50000
+Step 1100, Minibatch Loss= 0.681515, Training Accuracy= 0.59375
+Step 1200, Minibatch Loss= 0.700901, Training Accuracy= 0.46094
+Step 1300, Minibatch Loss= 0.683951, Training Accuracy= 0.56250
+Step 1400, Minibatch Loss= 0.679568, Training Accuracy= 0.58594
+Step 1500, Minibatch Loss= 0.698903, Training Accuracy= 0.47656
+Optimization Finished!
+Testing Accuracy: 0.5042
+
+Model: 6 : seq len = 25, num_hidden = 25, replication: 8
+
+Step 1, Minibatch Loss= 3.704155, Training Accuracy= 0.51562
+Step 100, Minibatch Loss= 0.691327, Training Accuracy= 0.54688
+Step 200, Minibatch Loss= 0.740545, Training Accuracy= 0.53125
+Step 300, Minibatch Loss= 0.692446, Training Accuracy= 0.50781
+Step 400, Minibatch Loss= 0.704123, Training Accuracy= 0.53125
+Step 500, Minibatch Loss= 0.720040, Training Accuracy= 0.52344
+Step 600, Minibatch Loss= 0.717485, Training Accuracy= 0.44531
+Step 700, Minibatch Loss= 0.694917, Training Accuracy= 0.49219
+Step 800, Minibatch Loss= 0.711015, Training Accuracy= 0.53125
+Step 900, Minibatch Loss= 0.740427, Training Accuracy= 0.45312
+Step 1000, Minibatch Loss= 0.691980, Training Accuracy= 0.53906
+Step 1100, Minibatch Loss= 0.695098, Training Accuracy= 0.51562
+Step 1200, Minibatch Loss= 0.693444, Training Accuracy= 0.50000
+Step 1300, Minibatch Loss= 0.695028, Training Accuracy= 0.50000
+Step 1400, Minibatch Loss= 0.705359, Training Accuracy= 0.46875
+Step 1500, Minibatch Loss= 0.691464, Training Accuracy= 0.50000
+Optimization Finished!
+Testing Accuracy: 0.5009
+
+Model: 6 : seq len = 25, num_hidden = 25, replication: 9
+
+Step 1, Minibatch Loss= 3.371233, Training Accuracy= 0.48438
+Step 100, Minibatch Loss= 0.690360, Training Accuracy= 0.56250
+Step 200, Minibatch Loss= 0.691359, Training Accuracy= 0.54688
+Step 300, Minibatch Loss= 0.694068, Training Accuracy= 0.49219
+Step 400, Minibatch Loss= 0.693272, Training Accuracy= 0.52344
+Step 500, Minibatch Loss= 0.690853, Training Accuracy= 0.54688
+Step 600, Minibatch Loss= 0.725175, Training Accuracy= 0.49219
+Step 700, Minibatch Loss= 0.689967, Training Accuracy= 0.53906
+Step 800, Minibatch Loss= 0.693836, Training Accuracy= 0.51562
+Step 900, Minibatch Loss= 0.690235, Training Accuracy= 0.52344
+Step 1000, Minibatch Loss= 0.698829, Training Accuracy= 0.49219
+Step 1100, Minibatch Loss= 0.682861, Training Accuracy= 0.57812
+Step 1200, Minibatch Loss= 0.693891, Training Accuracy= 0.53125
+Step 1300, Minibatch Loss= 0.698049, Training Accuracy= 0.46094
+Step 1400, Minibatch Loss= 0.694148, Training Accuracy= 0.52344
+Step 1500, Minibatch Loss= 0.736713, Training Accuracy= 0.42188
+Optimization Finished!
+Testing Accuracy: 0.5028
+
+Model: 7 : seq len = 50, num_hidden = 25, replication: 0
+
+Step 1, Minibatch Loss= 2.396097, Training Accuracy= 0.49219
+Step 100, Minibatch Loss= 1.929584, Training Accuracy= 0.49219
+Step 200, Minibatch Loss= 1.393984, Training Accuracy= 0.48438
+Step 300, Minibatch Loss= 0.712859, Training Accuracy= 0.50781
+Step 400, Minibatch Loss= 0.704644, Training Accuracy= 0.50781
+Step 500, Minibatch Loss= 0.709306, Training Accuracy= 0.56250
+Step 600, Minibatch Loss= 0.984229, Training Accuracy= 0.50000
+Step 700, Minibatch Loss= 0.693321, Training Accuracy= 0.50000
+Step 800, Minibatch Loss= 0.709130, Training Accuracy= 0.53125
+Step 900, Minibatch Loss= 0.741731, Training Accuracy= 0.50000
+Step 1000, Minibatch Loss= 0.767450, Training Accuracy= 0.53125
+Step 1100, Minibatch Loss= 0.704301, Training Accuracy= 0.48438
+Step 1200, Minibatch Loss= 0.765298, Training Accuracy= 0.47656
+Step 1300, Minibatch Loss= 0.771456, Training Accuracy= 0.57031
+Step 1400, Minibatch Loss= 0.710344, Training Accuracy= 0.49219
+Step 1500, Minibatch Loss= 0.809269, Training Accuracy= 0.52344
+Optimization Finished!
+Testing Accuracy: 0.4936
+
+Model: 7 : seq len = 50, num_hidden = 25, replication: 1
+
+Step 1, Minibatch Loss= 3.529878, Training Accuracy= 0.46094
+Step 100, Minibatch Loss= 0.694069, Training Accuracy= 0.54688
+Step 200, Minibatch Loss= 0.738825, Training Accuracy= 0.43750
+Step 300, Minibatch Loss= 0.696815, Training Accuracy= 0.54688
+Step 400, Minibatch Loss= 0.692464, Training Accuracy= 0.52344
+Step 500, Minibatch Loss= 0.689045, Training Accuracy= 0.55469
+Step 600, Minibatch Loss= 0.672905, Training Accuracy= 0.60156
+Step 700, Minibatch Loss= 0.703165, Training Accuracy= 0.47656
+Step 800, Minibatch Loss= 0.693496, Training Accuracy= 0.50781
+Step 900, Minibatch Loss= 0.689597, Training Accuracy= 0.56250
+Step 1000, Minibatch Loss= 0.706541, Training Accuracy= 0.40625
+Step 1100, Minibatch Loss= 0.697188, Training Accuracy= 0.46875
+Step 1200, Minibatch Loss= 0.689482, Training Accuracy= 0.53906
+Step 1300, Minibatch Loss= 0.698462, Training Accuracy= 0.50000
+Step 1400, Minibatch Loss= 0.696563, Training Accuracy= 0.50000
+Step 1500, Minibatch Loss= 0.708266, Training Accuracy= 0.49219
+Optimization Finished!
+Testing Accuracy: 0.4909
+
+Model: 7 : seq len = 50, num_hidden = 25, replication: 2
+
+Step 1, Minibatch Loss= 1.572110, Training Accuracy= 0.47656
+Step 100, Minibatch Loss= 0.700399, Training Accuracy= 0.49219
+Step 200, Minibatch Loss= 0.861455, Training Accuracy= 0.53125
+Step 300, Minibatch Loss= 0.703083, Training Accuracy= 0.52344
+Step 400, Minibatch Loss= 0.789990, Training Accuracy= 0.46094
+Step 500, Minibatch Loss= 0.687230, Training Accuracy= 0.56250
+Step 600, Minibatch Loss= 0.686915, Training Accuracy= 0.56250
+Step 700, Minibatch Loss= 0.695069, Training Accuracy= 0.49219
+Step 800, Minibatch Loss= 0.778605, Training Accuracy= 0.46094
+Step 900, Minibatch Loss= 0.713293, Training Accuracy= 0.45312
+Step 1000, Minibatch Loss= 0.701917, Training Accuracy= 0.55469
+Step 1100, Minibatch Loss= 0.696710, Training Accuracy= 0.50000
+Step 1200, Minibatch Loss= 0.698236, Training Accuracy= 0.50781
+Step 1300, Minibatch Loss= 0.686645, Training Accuracy= 0.56250
+Step 1400, Minibatch Loss= 0.725040, Training Accuracy= 0.49219
+Step 1500, Minibatch Loss= 0.699885, Training Accuracy= 0.46875
+Optimization Finished!
+Testing Accuracy: 0.5017
+
+Model: 7 : seq len = 50, num_hidden = 25, replication: 3
+
+Step 1, Minibatch Loss= 1.281576, Training Accuracy= 0.53125
+Step 100, Minibatch Loss= 0.695853, Training Accuracy= 0.46875
+Step 200, Minibatch Loss= 0.759101, Training Accuracy= 0.43750
+Step 300, Minibatch Loss= 0.705403, Training Accuracy= 0.53906
+Step 400, Minibatch Loss= 0.693730, Training Accuracy= 0.49219
+Step 500, Minibatch Loss= 0.687173, Training Accuracy= 0.57031
+Step 600, Minibatch Loss= 0.687639, Training Accuracy= 0.57031
+Step 700, Minibatch Loss= 0.714300, Training Accuracy= 0.47656
+Step 800, Minibatch Loss= 0.657339, Training Accuracy= 0.63281
+Step 900, Minibatch Loss= 0.695789, Training Accuracy= 0.54688
+Step 1000, Minibatch Loss= 0.693120, Training Accuracy= 0.50781
+Step 1100, Minibatch Loss= 0.702207, Training Accuracy= 0.46094
+Step 1200, Minibatch Loss= 0.713804, Training Accuracy= 0.50000
+Step 1300, Minibatch Loss= 0.728043, Training Accuracy= 0.46094
+Step 1400, Minibatch Loss= 0.693648, Training Accuracy= 0.50000
+Step 1500, Minibatch Loss= 0.687131, Training Accuracy= 0.55469
+Optimization Finished!
+Testing Accuracy: 0.4922
+
+Model: 7 : seq len = 50, num_hidden = 25, replication: 4
+
+Step 1, Minibatch Loss= 1.281705, Training Accuracy= 0.61719
+Step 100, Minibatch Loss= 0.798031, Training Accuracy= 0.46094
+Step 200, Minibatch Loss= 0.708756, Training Accuracy= 0.50000
+Step 300, Minibatch Loss= 0.689117, Training Accuracy= 0.54688
+Step 400, Minibatch Loss= 0.742093, Training Accuracy= 0.46094
+Step 500, Minibatch Loss= 0.728528, Training Accuracy= 0.49219
+Step 600, Minibatch Loss= 0.689542, Training Accuracy= 0.53906
+Step 700, Minibatch Loss= 0.693048, Training Accuracy= 0.50781
+Step 800, Minibatch Loss= 0.728641, Training Accuracy= 0.56250
+Step 900, Minibatch Loss= 0.703636, Training Accuracy= 0.43750
+Step 1000, Minibatch Loss= 0.688973, Training Accuracy= 0.56250
+Step 1100, Minibatch Loss= 0.689412, Training Accuracy= 0.53906
+Step 1200, Minibatch Loss= 0.718137, Training Accuracy= 0.50000
+Step 1300, Minibatch Loss= 0.693146, Training Accuracy= 0.47656
+Step 1400, Minibatch Loss= 0.697603, Training Accuracy= 0.53906
+Step 1500, Minibatch Loss= 0.694227, Training Accuracy= 0.46094
+Optimization Finished!
+Testing Accuracy: 0.5082
+
+Model: 7 : seq len = 50, num_hidden = 25, replication: 5
+
+Step 1, Minibatch Loss= 3.135406, Training Accuracy= 0.42969
+Step 100, Minibatch Loss= 0.694918, Training Accuracy= 0.53125
+Step 200, Minibatch Loss= 0.688305, Training Accuracy= 0.56250
+Step 300, Minibatch Loss= 0.701750, Training Accuracy= 0.47656
+Step 400, Minibatch Loss= 0.707858, Training Accuracy= 0.52344
+Step 500, Minibatch Loss= 0.692074, Training Accuracy= 0.49219
+Step 600, Minibatch Loss= 0.694401, Training Accuracy= 0.47656
+Step 700, Minibatch Loss= 0.687705, Training Accuracy= 0.55469
+Step 800, Minibatch Loss= 0.699485, Training Accuracy= 0.46094
+Step 900, Minibatch Loss= 0.692635, Training Accuracy= 0.50781
+Step 1000, Minibatch Loss= 0.713635, Training Accuracy= 0.49219
+Step 1100, Minibatch Loss= 0.693944, Training Accuracy= 0.45312
+Step 1200, Minibatch Loss= 0.691914, Training Accuracy= 0.58594
+Step 1300, Minibatch Loss= 0.690232, Training Accuracy= 0.57812
+Step 1400, Minibatch Loss= 0.699025, Training Accuracy= 0.46094
+Step 1500, Minibatch Loss= 0.687960, Training Accuracy= 0.55469
+Optimization Finished!
+Testing Accuracy: 0.5108
+
+Model: 7 : seq len = 50, num_hidden = 25, replication: 6
+
+Step 1, Minibatch Loss= 3.713912, Training Accuracy= 0.49219
+Step 100, Minibatch Loss= 0.695600, Training Accuracy= 0.53906
+Step 200, Minibatch Loss= 0.728598, Training Accuracy= 0.38281
+Step 300, Minibatch Loss= 0.692706, Training Accuracy= 0.53125
+Step 400, Minibatch Loss= 0.728899, Training Accuracy= 0.48438
+Step 500, Minibatch Loss= 0.676682, Training Accuracy= 0.59375
+Step 600, Minibatch Loss= 0.691251, Training Accuracy= 0.53906
+Step 700, Minibatch Loss= 0.721440, Training Accuracy= 0.48438
+Step 800, Minibatch Loss= 0.738956, Training Accuracy= 0.46875
+Step 900, Minibatch Loss= 0.719168, Training Accuracy= 0.49219
+Step 1000, Minibatch Loss= 0.699303, Training Accuracy= 0.46094
+Step 1100, Minibatch Loss= 0.732611, Training Accuracy= 0.42969
+Step 1200, Minibatch Loss= 0.692090, Training Accuracy= 0.52344
+Step 1300, Minibatch Loss= 0.696151, Training Accuracy= 0.50000
+Step 1400, Minibatch Loss= 0.692709, Training Accuracy= 0.52344
+Step 1500, Minibatch Loss= 0.683722, Training Accuracy= 0.57031
+Optimization Finished!
+Testing Accuracy: 0.4981
+
+Model: 7 : seq len = 50, num_hidden = 25, replication: 7
+
+Step 1, Minibatch Loss= 1.378980, Training Accuracy= 0.44531
+Step 100, Minibatch Loss= 0.796660, Training Accuracy= 0.42969
+Step 200, Minibatch Loss= 0.694284, Training Accuracy= 0.48438
+Step 300, Minibatch Loss= 0.699457, Training Accuracy= 0.50781
+Step 400, Minibatch Loss= 0.746264, Training Accuracy= 0.45312
+Step 500, Minibatch Loss= 0.688365, Training Accuracy= 0.55469
+Step 600, Minibatch Loss= 0.699983, Training Accuracy= 0.45312
+Step 700, Minibatch Loss= 0.703757, Training Accuracy= 0.51562
+Step 800, Minibatch Loss= 0.756334, Training Accuracy= 0.46875
+Step 900, Minibatch Loss= 0.691439, Training Accuracy= 0.50781
+Step 1000, Minibatch Loss= 0.694034, Training Accuracy= 0.48438
+Step 1100, Minibatch Loss= 0.730011, Training Accuracy= 0.50781
+Step 1200, Minibatch Loss= 0.791651, Training Accuracy= 0.48438
+Step 1300, Minibatch Loss= 0.713782, Training Accuracy= 0.45312
+Step 1400, Minibatch Loss= 0.694981, Training Accuracy= 0.50000
+Step 1500, Minibatch Loss= 0.690796, Training Accuracy= 0.54688
+Optimization Finished!
+Testing Accuracy: 0.5052
+
+Model: 7 : seq len = 50, num_hidden = 25, replication: 8
+
+Step 1, Minibatch Loss= 3.645602, Training Accuracy= 0.50000
+Step 100, Minibatch Loss= 0.719709, Training Accuracy= 0.45312
+Step 200, Minibatch Loss= 0.702217, Training Accuracy= 0.51562
+Step 300, Minibatch Loss= 0.699940, Training Accuracy= 0.56250
+Step 400, Minibatch Loss= 0.697415, Training Accuracy= 0.48438
+Step 500, Minibatch Loss= 0.694071, Training Accuracy= 0.50000
+Step 600, Minibatch Loss= 0.712762, Training Accuracy= 0.46875
+Step 700, Minibatch Loss= 0.739050, Training Accuracy= 0.42969
+Step 800, Minibatch Loss= 0.693452, Training Accuracy= 0.50781
+Step 900, Minibatch Loss= 0.693723, Training Accuracy= 0.50000
+Step 1000, Minibatch Loss= 0.695030, Training Accuracy= 0.42969
+Step 1100, Minibatch Loss= 0.695467, Training Accuracy= 0.48438
+Step 1200, Minibatch Loss= 0.695614, Training Accuracy= 0.47656
+Step 1300, Minibatch Loss= 0.690579, Training Accuracy= 0.53906
+Step 1400, Minibatch Loss= 0.678872, Training Accuracy= 0.58594
+Step 1500, Minibatch Loss= 0.703419, Training Accuracy= 0.48438
+Optimization Finished!
+Testing Accuracy: 0.4995
+
+Model: 7 : seq len = 50, num_hidden = 25, replication: 9
+
+Step 1, Minibatch Loss= 1.020920, Training Accuracy= 0.55469
+Step 100, Minibatch Loss= 0.710929, Training Accuracy= 0.40625
+Step 200, Minibatch Loss= 0.707775, Training Accuracy= 0.48438
+Step 300, Minibatch Loss= 0.696970, Training Accuracy= 0.53125
+Step 400, Minibatch Loss= 0.688432, Training Accuracy= 0.59375
+Step 500, Minibatch Loss= 0.701185, Training Accuracy= 0.52344
+Step 600, Minibatch Loss= 0.689449, Training Accuracy= 0.56250
+Step 700, Minibatch Loss= 0.700046, Training Accuracy= 0.50781
+Step 800, Minibatch Loss= 0.698954, Training Accuracy= 0.53906
+Step 900, Minibatch Loss= 0.722091, Training Accuracy= 0.42188
+Step 1000, Minibatch Loss= 0.702792, Training Accuracy= 0.46875
+Step 1100, Minibatch Loss= 0.711937, Training Accuracy= 0.46875
+Step 1200, Minibatch Loss= 0.765663, Training Accuracy= 0.48438
+Step 1300, Minibatch Loss= 0.697598, Training Accuracy= 0.49219
+Step 1400, Minibatch Loss= 0.705965, Training Accuracy= 0.43750
+Step 1500, Minibatch Loss= 0.682640, Training Accuracy= 0.57031
+Optimization Finished!
+Testing Accuracy: 0.5021
+discarding /projects/akar9135/sample/bin from PATH
